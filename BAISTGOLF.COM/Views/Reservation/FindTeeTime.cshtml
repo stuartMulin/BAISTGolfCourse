@@ -1,0 +1,14 @@
+﻿
+<div class="form-horizontal">
+    <div class="form-group">
+        @Html.Label("Enter A Date", new { @class = "control-label"})
+        @Html.TextBox("searchDate", null,  new { @class = "form-control", id = "searchDate" })
+    </div>
+    <div class="form-group">
+        <button class="btn btn-info" onclick="searchForTeeTimes()">Search For Tee Times</button>
+    </div>
+
+    <div id="tee-times">
+
+    </div>
+</div>

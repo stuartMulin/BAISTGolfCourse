@@ -1,0 +1,18 @@
+﻿@model TheBackEndLayer.ViewModels.Members.MembersViewModel
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row m-t-10">
+    <div class="col-xs-12 col-sm-9">
+        <h3>@Model.FirstName @Model.LastName</h3>
+    </div>
+    <div class="col-sm-3">
+        <div class="list-group">
+            <a href="/reservation" class="list-group-item list-group-item-action">Reservation</a>
+            <a href="/playerscore" class="list-group-item list-group-item-action">Score</a>
+        </div>
+    </div>
+</div>
+

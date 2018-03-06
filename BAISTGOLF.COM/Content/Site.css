@@ -1,0 +1,70 @@
+﻿body {
+    font-family: 'Lato', sans-serif !important;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif !important;
+}
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+.m-t-10 {
+    margin-top: 10px;
+}
+.navbar-inverse .navbar-nav > li > a
+{
+    color: white !important;
+}
+
+.navbar-inverse .navbar-brand
+{
+    color: white; font-weight: 900
+}
+
+.tee-time-list {
+    height: 315px; overflow: auto;
+}
+
+.f-s-19 {
+    font-size: 19px;
+}
+
+.padding-15 {
+    padding: 15px;
+}
+
+.m-t-10 {
+    margin-top: 10px;
+}
+
+.tee-time-detail {
+    height: 160px;
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+    background: white;
+    font-weight: 600;
+}
+
+
+.selected-tee-time-container {
+    padding: 40px;
+    border: 1px solid lightgray;
+    background: white;
+}
+
+.f-s-0 {
+    font-size: 0px;
+}
