@@ -8,10 +8,17 @@ namespace TheBackEndLayer.ViewModels.Scores
 {
    public  class PlayerScoreViewModel
     {
-        public string FullName { get; set; }
+        public string MemberName { get; set; }
         public string Gender { get; set; }
         public string Score { get; set; }
         public string Handicap { get; set; }
-        public string Date { get; set; }
+        public DateTime Date { get; set; }
+        public long Id { get; set; }
+        public int CourseId { get; set; }
+        public int HandicapId { get; set; }
+        public int MemberId { get; set; }
+        public int Rating { get; set; }
+        public int ReservationId { get; set; }
+        
     }
 }

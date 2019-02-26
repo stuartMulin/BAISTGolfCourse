@@ -10,10 +10,10 @@ namespace TheBackEndLayer.DbModels
     {
         public Hole()
         {
-            PlayerScores = new HashSet<Scores>();
+            PlayerScores = new HashSet<PlayerScores>();
         }
         public int ID { get; set; }
         public string Name { get; set; }
-        public ICollection<Scores> PlayerScores { get; set; }
+        public ICollection<PlayerScores> PlayerScores { get; set; }
     }
 }

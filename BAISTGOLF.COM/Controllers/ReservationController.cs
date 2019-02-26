@@ -1,49 +1,162 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using TheBackEndLayer.DbModels;
-using System.Web;
-using TheBackEndLayer.Services;
+﻿using TheBackEndLayer.Services;
 using System.Web.Mvc;
-using System.Net;
 using TheBackEndLayer.ViewModels.Reservation;
+using TheBackEndLayer.Repositories;
+using TheBackEndLayer.ViewModels.HandlesInPutModels;
+using System.Data;
+using TheBackEndLayer.DbModels;
+using System.Net;
+using TheBackEndLayer.ViewModels.ForInputModels;
+using System.Linq;
 
 namespace BAISTGOLF.Controllers
 {
     public class ReservationController : Controller
     {
-        private ReservationService reservationService = new ReservationService();
-        private MembersService memberService = new MembersService();
+        private readonly IMemberService _memberService;
+        private readonly ITeeTimesService _teetimeService;
+        private readonly IReservationService _reservationService;
+        public ReservationController(IReservationService reservationService, ITeeTimesService teetimeService, IMemberService memberService)
+        {
+            _reservationService = reservationService;
+            _teetimeService = teetimeService;
+            _memberService = memberService;
 
+
+
+        }
+        // GET: Reservation
         public ActionResult Index()
         {
-            var member = memberService.GetuserByEmail(User.Identity.Name);
-
-            var reservationsForMember = reservationService.GetReservations(member.ID);
-
-            return View(reservationsForMember);
+            return View();
         }
-
         [HttpGet]
         public ActionResult Create()
         {
-            var member = memberService.GetuserByEmail(User.Identity.Name);
-            ViewBag.MemberID = member.ID;
             return View();
+        }
+        [HttpPost]
+        public ActionResult Create(CreateReserveInputModel inputModel)
+        {
+            if (ModelState.IsValid)
+            {
+                var create = _reservationService.CreateReservation(inputModel, User.Identity.Name);
+                if (create)
+                    return Json("OK", JsonRequestBehavior.AllowGet);
+                else
+                    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            else
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
         }
 
         [HttpPost]
-        public void Create(CreateReservationModel inputModel)
+        public ActionResult FindTeeTime(FindTeeTimeModel teeTimeFinder)
         {
-            var member = memberService.GetuserByEmail(User.Identity.Name);
-
-            reservationService.CreateReservation(inputModel, member.ID);
+            var teeTimeList = _reservationService.FindTeeTimes(teeTimeFinder);
+            return PartialView(teeTimeList);
         }
 
-        [HttpGet]
+        [HttpPost]
+        public ActionResult AddMembers(string memberID, int teeTimeID)
+        {
+            var member = _reservationService.AddMemberToReservation(memberID, teeTimeID,
+                User.Identity.Name);
+
+            return Json(member, JsonRequestBehavior.AllowGet);
+
+        }
         public ActionResult GetWithMembers()
         {
             return PartialView();
         }
+
+        [HttpGet]
+        public ActionResult List()
+        {
+            return View();
+        }
+
+        [HttpGet]
+        public ActionResult Details(int id)
+        {
+            var teeTimeWithReservations = _teetimeService.GetWithMembers(id);
+            return View(teeTimeWithReservations);
+        }
+
+        [HttpGet]
+        public ActionResult GetList()
+        {
+            var reservations = _reservationService.GetReservations(User.Identity.Name);
+
+            var reservationsCalendar = reservations.Select(x => new
+            {
+                id = x.TeeTimeID,
+                title =
+                "Reservation For " + x.MemberFullName,
+                start = x.TeeTimeStartDate.ToString("s"),
+                end = x.TeeTimeStartDate.ToString("s"),
+                allDay = false
+            });
+            return Json(reservationsCalendar, JsonRequestBehavior.AllowGet);
+        }
+        //    public ActionResult Index()
+        //{
+        //    var member = _memberService.GetMemberByEmail(User.Identity.Name);
+
+        //    var reservationsForMember = _reservationService.GetReservations(member.ID);
+
+        //    return View(reservationsForMember);
+        //}
+
+        //[HttpGet]
+        //public ActionResult Create()
+        //{
+        //    var member = _memberService.GetMemberByEmail(User.Identity.Name);
+        //    ViewBag.MemberID = member.ID;
+        //    return View();
+        //}
+
+        [HttpPost]
+        public ActionResult Create(CreateReservationModel inputModel)
+        {
+
+            if (ModelState.IsValid)
+            {
+                var member = _memberService.GetMemberByEmail(User.Identity.Name);
+
+                _reservationService.CreateNormalReservation(inputModel, member.ID);
+
+                return RedirectToAction("Index");
+
+            }
+            else
+                ModelState.AddModelError("", "unable to save chagnes. Try again, if the problem persists email system administrator");
+            return View(inputModel);
+        }
+
+
+
+        //[HttpGet]
+        //public ActionResult GetWithMembers()
+        //{
+        //    return PartialView();
+        //}
+        //[HttpGet]
+        //public ViewResult Details(int id)
+        //{
+        //    var member = _memberService.GetMemberById(id);
+
+        //    var reservationsForMember = _reservationService.GetReservations(member.ID);
+
+        //    return View(reservationsForMember);
+
+
+        }
+
+
     }
-}
+
+
+
+

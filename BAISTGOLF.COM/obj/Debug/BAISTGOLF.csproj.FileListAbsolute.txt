@@ -1,0 +1,433 @@
+H:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.csprojResolveAssemblyReference.cache
+H:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.COM.dll
+H:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.COM.pdb
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.csprojResolveAssemblyReference.cache
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\ApplicationInsights.config
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\csc.exe
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\System.Collections.Immutable.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\System.Reflection.Metadata.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\vbc.exe
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\VBCSCompiler.exe
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\VBCSCompiler.exe.config
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\BAISTGOLF.COM.dll.config
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\BAISTGOLF.COM.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\BAISTGOLF.COM.pdb
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Antlr3.Runtime.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\EntityFramework.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\EntityFramework.SqlServer.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.DependencyCollector.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.Web.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.WindowsServer.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.ApplicationInsights.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Google.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Web.Infrastructure.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Newtonsoft.Json.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Owin.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Helpers.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Mvc.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Optimization.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Razor.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.WebPages.Deployment.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.WebPages.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.WebPages.Razor.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\TheBackEndLayer.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\WebGrease.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\TheBackEndLayer.pdb
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.DependencyCollector.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.Web.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.WindowsServer.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.ApplicationInsights.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Helpers.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Mvc.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Optimization.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Razor.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.WebPages.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.WebPages.Deployment.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.WebPages.Razor.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Antlr3.Runtime.pdb
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Newtonsoft.Json.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\EntityFramework.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\EntityFramework.SqlServer.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Google.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.COM.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.COM.pdb
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\ApplicationInsights.config
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\csc.exe
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\vbc.exe
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\VBCSCompiler.exe
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\BAISTGOLF.COM.dll.config
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\BAISTGOLF.COM.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\BAISTGOLF.COM.pdb
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Antlr3.Runtime.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\EntityFramework.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\EntityFramework.SqlServer.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.Web.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Newtonsoft.Json.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Owin.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Helpers.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Mvc.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Optimization.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Razor.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.WebPages.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.WebPages.Razor.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\TheBackEndLayer.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\WebGrease.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\TheBackEndLayer.pdb
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\TheBackEndLayer.dll.config
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\EntityFramework.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\EntityFramework.SqlServer.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.Web.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Newtonsoft.Json.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Helpers.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Mvc.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Razor.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.WebPages.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.WebPages.Razor.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Optimization.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Antlr3.Runtime.pdb
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.csprojAssemblyReference.cache
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.csproj.CoreCompileInputs.cache
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.csproj.CopyComplete
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.COM.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.COM.pdb
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\ApplicationInsights.config
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\csc.exe
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\vbc.exe
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\VBCSCompiler.exe
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\BAISTGOLF.COM.dll.config
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\BAISTGOLF.COM.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\BAISTGOLF.COM.pdb
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Antlr3.Runtime.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\AutoMapper.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Castle.Core.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Castle.Windsor.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\CommonServiceLocator.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\EntityFramework.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\EntityFramework.SqlServer.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.Web.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Newtonsoft.Json.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Owin.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.ValueTuple.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Helpers.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Mvc.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Optimization.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Razor.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.WebPages.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.WebPages.Razor.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\TheBackEndLayer.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.Abstractions.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.Configuration.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.Container.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.Interception.Configuration.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.Interception.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.Mvc5.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.RegistrationByConvention.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.ServiceLocation.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\WebActivatorEx.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\WebGrease.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\TheBackEndLayer.pdb
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\TheBackEndLayer.dll.config
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\AutoMapper.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Castle.Core.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Castle.Windsor.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\CommonServiceLocator.pdb
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\EntityFramework.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\EntityFramework.SqlServer.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.Web.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Newtonsoft.Json.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.ValueTuple.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Helpers.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Mvc.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Razor.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.WebPages.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.WebPages.Razor.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Optimization.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Antlr3.Runtime.pdb
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.Abstractions.pdb
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.Configuration.pdb
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.Container.pdb
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.Interception.pdb
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.Interception.Configuration.pdb
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.RegistrationByConvention.pdb
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.ServiceLocation.pdb
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.csprojAssemblyReference.cache
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.csproj.CoreCompileInputs.cache
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.csproj.CopyComplete
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.COM.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.COM.pdb
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\OWIN.Windsor.DependencyResolverScopeMiddleware.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Net.Http.Extensions.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Net.Http.Formatting.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Net.Http.Primitives.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Http.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Http.WebHost.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Net.Http.Extensions.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Net.Http.Formatting.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Net.Http.Primitives.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Http.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Http.WebHost.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.csproj.App.config
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\ApplicationInsights.config
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\csc.exe
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\vbc.exe
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\VBCSCompiler.exe
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\BAISTGOLF.COM.dll.config
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\BAISTGOLF.COM.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\BAISTGOLF.COM.pdb
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Antlr3.Runtime.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\AutoMapper.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Castle.Core.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Castle.Windsor.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\CommonServiceLocator.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\EntityFramework.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\EntityFramework.SqlServer.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.Web.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Newtonsoft.Json.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Owin.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\OWIN.Windsor.DependencyResolverScopeMiddleware.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Net.Http.Extensions.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Net.Http.Formatting.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Net.Http.Primitives.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.ValueTuple.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Helpers.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Http.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Http.WebHost.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Mvc.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Optimization.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Razor.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.WebPages.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.WebPages.Razor.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\TheBackEndLayer.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.Abstractions.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.Configuration.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.Container.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.Interception.Configuration.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.Interception.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.Mvc5.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.RegistrationByConvention.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.ServiceLocation.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\WebActivatorEx.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\WebGrease.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\TheBackEndLayer.pdb
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\AutoMapper.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Castle.Core.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Castle.Windsor.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\CommonServiceLocator.pdb
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\EntityFramework.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\EntityFramework.SqlServer.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.Web.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Newtonsoft.Json.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Net.Http.Extensions.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Net.Http.Formatting.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Net.Http.Primitives.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.ValueTuple.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Helpers.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Http.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Http.WebHost.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Mvc.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Razor.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.WebPages.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.WebPages.Razor.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\System.Web.Optimization.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Antlr3.Runtime.pdb
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.Abstractions.pdb
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.Configuration.pdb
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.Container.pdb
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.Interception.pdb
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.Interception.Configuration.pdb
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.RegistrationByConvention.pdb
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Unity.ServiceLocation.pdb
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.csproj.App.config
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.csprojResolveAssemblyReference.cache
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.COM.Migrations.BAISTGolfCourseDbContext.resources
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.csproj.GenerateResource.Cache
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.COM.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.COM.pdb
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.SignalR.SystemWeb.xml

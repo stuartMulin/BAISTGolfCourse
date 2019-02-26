@@ -1,16 +1,45 @@
-﻿<script type="text/javascript" src="~/Scripts/reservationCreate.js"></script>
+﻿
 @{
     ViewBag.Title = "Create";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_MemberLayout.cshtml";
 }
-<text id="memberID" class="f-s-0">@ViewBag.MemberID</text>
-<h2>Create A Reservation</h2>
-
-<div id="wizard">
+<ol class="breadcrumb" style="margin-left: 1%">
+    <li><a href="/">Home</a></li>
+    <li><a href="/reservations">Reservation Manager</a></li>
+    <li class="active">Create</li>
+</ol>
+<h3 class="m-l-3p">
+    <i class="fa fa-plus m-r-10"></i>Create A Reservation <br />
+    <small>Use this form to reserve a spot whenever it's convenient for you...</small>
+</h3>
+<div id="wizard" class="m-t-30">
     <h1>Find Tee Time</h1>
-    <div>@Html.Partial("FindTeeTime")</div>
+    <div>
+        <fieldset>
+            <legend>Find Your Time Range</legend>
+            <div class="col-xs-12">
+                @Html.Partial("EnterTeeTime")
+            </div>
+        </fieldset>
+    </div>
+    <h1>Available Tee Times</h1>
+    <div>
+        <fieldset>
+            <legend>Available Tee Times</legend>
+            <div class="col-xs-12" id="teeTimeList">
 
-    <h1>Assign Members To Tee Time</h1>
-    <div><div id="teeTimeDetail"></div></div>
+            </div>
+        </fieldset>
+    </div>
+    <h1>Add Members (Optional) & Submit</h1>
+    <div>
+        <fieldset>
+            <legend>Add Members To This Reservation</legend>
+            <div class="col-xs-12" id="teeTimeDetail">
+
+            </div>
+        </fieldset>
+    </div>
 </div>
+
 

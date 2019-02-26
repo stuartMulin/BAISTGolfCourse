@@ -36,6 +36,7 @@ namespace TheBackEndLayer.ViewModels.Members
         public string Phone { get; set; }
         public string AlternatePhone { get; set; }
         public string MembershipType { get; set; }
+        public string MembershipID { get; set; }
         public ReservationStats ReservationStats { get; set; }
         public AverageScore AverageScore { get; set; }
     }

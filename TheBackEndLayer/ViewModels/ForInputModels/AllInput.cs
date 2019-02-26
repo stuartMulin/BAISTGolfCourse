@@ -24,9 +24,9 @@ namespace TheBackEndLayer.ViewModels.HandlesInPut
 
         }
 
-        [Required (ErrorMessage ="Required")]
-        [Display(Name =" Score:")]
-        [Range (0,2000, ErrorMessage = "Please enter value greater than 0")]
+        [Required(ErrorMessage = "Required")]
+        [Display(Name = " Score:")]
+        [Range(0, 2000, ErrorMessage = "Please enter value greater than 0")]
 
         public double Score { get; set; }
 
@@ -37,7 +37,7 @@ namespace TheBackEndLayer.ViewModels.HandlesInPut
         [Required(ErrorMessage = "Required")]
         [Display(Name = "Select Hole: ")]
         public int HoleID { get; set; }
-
+        public string ShareHolder1MemberID { get; set; }
         [Required(ErrorMessage = "Required")]
         [Display(Name = "Select Handcap: ")]
         public int HandicapID { get; set; }
@@ -46,14 +46,21 @@ namespace TheBackEndLayer.ViewModels.HandlesInPut
         [Display(Name = "Date Played: ")]
         public DateTime? DatePlayed { get; set; }
 
-        public List<HoleViewModel> Holes{ get; set; }
+        public List<HoleViewModel> Holes { get; set; }
         public List<HandicapViewModel> Handcaps { get; set; }
         public List<ReservationScoreViewModel> Reservations { get; set; }
+        public string ShareHolder2MemberID { get; set; }
+        public int ShareHolder1ID { get; set; }
+        public int ShareHolder2ID { get; set; }
+        public List<string> Provinces
+        {
+            get; set;
 
 
-    }
+        }
 
-    internal class holeViewModel
-    {
+        internal class holeViewModel
+        {
+        }
     }
 }

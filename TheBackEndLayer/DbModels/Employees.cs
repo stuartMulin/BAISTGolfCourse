@@ -21,11 +21,16 @@ namespace TheBackEndLayer.DbModels
         public string LastName { get; set; }
         public string UserName { get; set; }
         public Role Role { get; set; }
-        public string Address { get; set; }
+        public string Address1 { get; set; }
+        public string Address2 { get; set; }
         public string Phone { get; set; }
         public DateTime DateOfBirth { get; set; }
         public DateTime DateCreated { get; set; }
         public Gender Gender { get; set; }
+        public string Province { get; set; }
+        public string PCode { get; set; }
+        public string AlternatePhone { get; set; }
+        public string City { get; set; }
 
     }
 }

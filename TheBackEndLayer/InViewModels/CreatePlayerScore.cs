@@ -22,7 +22,8 @@ namespace BAISTGOLF.InViewModels
         }
         [Required(ErrorMessage = "Required")]
         [Display(Name = "Enter Member ID: ")]
-        public string MemberID { get; set; }
+        public int MemberID { get; set; }
+
         [Required(ErrorMessage = "Required")]
         [Display(Name = "Enter Score: ")]
         [Range(0, 3000, ErrorMessage = "The value must be greater than 0")]
@@ -38,7 +39,8 @@ namespace BAISTGOLF.InViewModels
         public int HandicapID { get; set; }
         [Required(ErrorMessage = "Required")]
         [Display(Name = "Date Played: ")]
-        public DateTime? DatePlayed { get; set; }
+        public DateTime DatePlayed { get; set; }
+
         [Required(ErrorMessage = "Required")]
         [Display(Name = "Select Golf Course: ")]
         public int GolfCourseID { get; set; }

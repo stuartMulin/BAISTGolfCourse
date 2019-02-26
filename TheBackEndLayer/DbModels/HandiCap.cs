@@ -9,10 +9,10 @@ namespace TheBackEndLayer.DbModels
     {
         public HandiCap()
         {
-            PlayerScore = new HashSet<Scores>();
+            PlayerScore = new HashSet<PlayerScores>();
         }
         public int Id { get; set; }
         public string Name { get; set; }
-        public ICollection<Scores> PlayerScore { get; set; }
+        public ICollection<PlayerScores> PlayerScore { get; set; }
     }
 }

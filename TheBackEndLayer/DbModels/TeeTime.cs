@@ -18,7 +18,7 @@ namespace TheBackEndLayer.DbModels
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public DateTime DateCreated { get; set; }
-        public TeeTimeStatus TeeState { get; set; }
+        public TeeTimeStatus Status { get; set; }
         public int GolfCourseID { get; set; }
 
         [ForeignKey("GolfCourseID")]

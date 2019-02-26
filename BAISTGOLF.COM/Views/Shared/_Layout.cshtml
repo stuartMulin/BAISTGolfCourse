@@ -3,25 +3,24 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @Scripts.Render("~/bundles/modernizr")
+    <title>@ViewBag.Title - BAIST Golf Club</title>
     @Styles.Render("~/Content/css")
-
-    <script type="text/javascript" src="~/Scripts/underscore-min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,900" rel="stylesheet">
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/bootstrap")
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
+        <div class="col-xs-12">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("BAISTGolfCourse", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("BaistOnLinBooking", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -29,19 +28,40 @@
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                 </ul>
-                @Html.Partial("_LoginPartial")
+                <ul class="nav navbar-nav navbar-right">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li class="dropdown hidden-xs">
+                            <a href="#" role="button" class="colorgray" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span><i class="fa fa-bell"></i></span> <span class="badge">0</span></a>
+                            <ul class="dropdown-menu" role="menu" style="width: 400px">
+                                <li><a style="font-size: 17px; font-weight: 600">Your Notifications</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+
+                        <li>@Html.ActionLink("Sign Out", "LogOut", "Account")</li>
+
+                    }
+                    else
+                    {
+                        <li><a href="/account/login" id="signin2" style="cursor: pointer">Sign In</a></li>
+                    }
+                </ul>
+                <ul class="dropdown dropdown-menu" role="menu" aria-labelledby="dLabel">
+                    <li>Yoloo</li>
+                </ul>
             </div>
         </div>
     </div>
-    <div class="container body-content">
+    <div class="col-xs-12" style="margin-top: 41px;">
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - BAIST Golf Course</p>
+            <p>&copy; @DateTime.Now.Year - BAIST Golf Club</p>
         </footer>
     </div>
-
-
-    @RenderSection("scripts", required: false)
 </body>
 </html>

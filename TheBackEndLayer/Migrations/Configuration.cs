@@ -9,7 +9,7 @@ namespace TheBackEndLayer.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(TheBackEndLayer.DbModels.BAISTGolfCourseDbContext context)

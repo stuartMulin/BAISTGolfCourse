@@ -2,98 +2,118 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Security;
+using TheBackEndLayer.Enums;
+using TheBackEndLayer.InViewModels;
 using TheBackEndLayer.Services;
+using TheBackEndLayer.ViewModels.Login;
 
 namespace BAISTGOLF.Controllers
 {
     public class AccountController : Controller
     {
-        private EmployeeService employeeService = new EmployeeService();
-        private MembersService memberService = new MembersService();
-        // GET: Account
-        public ActionResult Index()
+        private readonly IAppService _applicantService;
+        private readonly IMemberService _memberService;
+        public AccountController(IAppService applicantService,
+             IMemberService memberService)
         {
-
-            return View();
-        }
-
-        // GET: Account/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
+            _applicantService = applicantService;
+            _memberService = memberService;
         }
 
         [HttpGet]
-        public ActionResult Login()
+        public ActionResult Register()
+        {
+            var applicantInputModel = _applicantService.Create();
+            return View(applicantInputModel);
+        }
+
+        [HttpPost]
+        public ActionResult Register(CreateInputModel createInputModel)
+        {
+            if (ModelState.IsValid)
+            {
+                var accountCreated = _applicantService.CreateApplicant(createInputModel);
+            }
+            return View(createInputModel);
+        }
+
+        [HttpPost]
+        public JsonResult CheckifEmailExists(string EmailAddress)
+        {
+            var user = _applicantService.GetUserByEmail(EmailAddress);
+            return Json(user == null, JsonRequestBehavior.AllowGet);
+        }
+
+        [HttpPost]
+        public JsonResult CheckMemberNumberExists(string MemberID)
+        {
+            var member = _memberService.GetMemberByMembershipNumber(MemberID);
+            return Json(member != null, JsonRequestBehavior.AllowGet);
+        }
+
+        [HttpPost]
+        public JsonResult CheckMembershipNumber1(string ShareHolder1MemberID)
+        {
+            var member = _memberService.GetMemberByMembershipNumber(ShareHolder1MemberID);
+            return Json(member != null, JsonRequestBehavior.AllowGet);
+        }
+
+        [HttpPost]
+        public JsonResult CheckMembershipNumber2(string ShareHolder2MemberID)
+        {
+            var member = _memberService.GetMemberByMembershipNumber(ShareHolder2MemberID);
+            return Json(member != null, JsonRequestBehavior.AllowGet);
+        }
+
+        [HttpGet]
+        public ActionResult Login(string ReturnUrl)
         {
             return View();
         }
 
-        public ActionResult LogOff()
+        public ActionResult LogOut()
         {
             FormsAuthentication.SignOut();
             return RedirectToAction("Index", "Home");
         }
 
-        [HttpPost]
-        public ActionResult LoginAsMember()
+        public ActionResult VerifySuccess(int memberID, int applicantID)
         {
-            var email = Request.Form["EmailAddress"];
-            var password = Request.Form["Password"];
-
-            var user = memberService.GetuserByEmail(email);
-
-            if (user != null)
-            {
-                var validatedUser = memberService.ValidateUser(password, user);
-
-                if (validatedUser != null)
-                {
-                    FormsAuthentication.SetAuthCookie(validatedUser.EmailAddress,
-                            true);
-
-                    return RedirectToAction("Detail", "Members", new
-                    { id = validatedUser.ID });
-
-                }
-            }
-            return View();
+            _applicantService.AcceptRejectApplicant(memberID, applicantID, 1);
+            ViewBag.Status = "Success";
+            return View("ThankYouAcceptance", "Home");
         }
 
-        [HttpGet]
-        public ActionResult AdminLogin()
+        public ActionResult VerifyFail(int memberID, int applicantID)
         {
-            return View();
+            _applicantService.AcceptRejectApplicant(memberID, applicantID, 0);
+            ViewBag.Status = "Failure";
+            return View("ThankYouAcceptance", "Home");
         }
 
         [HttpPost]
-        public ActionResult LoginAsAdmin()
+        public ActionResult Login(LoginInputModel loginModel)
         {
-            var email = Request.Form["EmailAddress"];
-            var password = Request.Form["Password"];
-
-            var user = employeeService.GetuserByEmail(email);
-
-            if (user != null)
+            if (ModelState.IsValid)
             {
-                var validatedUser = employeeService.ValidateUser(password, user);
+                //Store Remember Me in session for later use
+                var memberVieModel = _memberService.GetMemberByEmail(loginModel.Email);
 
-                if (validatedUser != null)
-                {
-                    FormsAuthentication.SetAuthCookie(validatedUser.EmailAddress,
-                            true);
+                FormsAuthentication.SetAuthCookie(memberVieModel.EmailAddress,
 
-                    return RedirectToAction("Detail", "Admin", new
-                    { id = validatedUser.Id });
-
-                }
+                    loginModel.RememberMe);
+                return RedirectToAction("MemberAccount", "Members",
+                    new { id = memberVieModel.MembershipID });
             }
-
-            return View();
+            else
+            {
+                ModelState.AddModelError("", "Email or password is incorrect");
+                return View(loginModel);
+            }
         }
-
     }
 }

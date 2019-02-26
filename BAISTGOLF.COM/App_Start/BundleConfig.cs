@@ -11,6 +11,7 @@ namespace BAISTGOLF.COM
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                          "~/Scripts/jquery-3.3.1.js"));
 
+
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                        "~/Scripts/jquery.validate.min.js",
                        "~/Scripts/jquery.validate.unobtrusive.min.js",
@@ -32,7 +33,8 @@ namespace BAISTGOLF.COM
                       "~/Scripts/reservation.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
+                      "~/Content/Bootstrap2.css",
+
                       "~/Content/site.css",
                       "~/Content/bootstrap-datepicker.css",
                       "~/Content/toastr.min.css",

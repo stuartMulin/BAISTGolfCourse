@@ -1,0 +1,15 @@
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\obj\Release\TheBackEndLayer.csprojAssemblyReference.cache
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\obj\Release\TheBackEndLayer.Migrations.InitialMigration.resources
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\obj\Release\TheBackEndLayer.Migrations.UpdateScoreDbModel.resources
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\obj\Release\TheBackEndLayer.csproj.GenerateResource.cache
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\obj\Release\TheBackEndLayer.csproj.CoreCompileInputs.cache
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Release\TheBackEndLayer.dll.config
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Release\TheBackEndLayer.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Release\TheBackEndLayer.pdb
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Release\EntityFramework.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Release\EntityFramework.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\obj\Release\TheBackEndLayer.csproj.CopyComplete
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\obj\Release\TheBackEndLayer.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\obj\Release\TheBackEndLayer.pdb

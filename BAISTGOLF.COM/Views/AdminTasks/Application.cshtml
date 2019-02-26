@@ -1,0 +1,77 @@
+﻿@model List<TheBackEndLayer.ViewModels.Applicants.AppRequestViewModel>
+@{
+    ViewBag.Title = "ApplicantRequests";
+    Layout = "~/Views/Shared/_EmployeeLayout.cshtml";
+}
+@*<div class="col-xs-12">
+    <h2>@Model. 's Application</h2>
+
+    <div class="panel panel-default">
+        <div class="panel-heading h-55">
+            <span class="f-s-17 block-span">@Model.FirstName @Model.LastName</span>
+
+            <button onclick="makeDecision(this.id, 'reject')" id="@Model.ID" class="btn btn-danger pull-right"><i class="fa fa-times m-r-10"></i> Reject</button>
+            <button id="@Model.ID" onclick="makeDecision(this.id, 'approve')" class="btn btn-success pull-right m-r-10"><i class="fa fa-check m-r-10"></i> Approve</button>
+
+        </div>
+        <div class="panel-body">
+            <h4>@Model.First Name @Model.LastName</h4>
+            <h4>@Model.Address1</h4>
+            <h4>@Model.City , @Model.Province</h4>
+            <h4>@Model.PostalCode</h4>
+            <div class="bg-white p-10 overflow-hidden">
+                <h4>More Information</h4>
+                <hr />
+                <div class="col-md-4 col-xs-12">
+
+                    <label class="bold-label">Phone</label>
+                    <h5>@Model.Phone</h5>
+
+                    <label class="bold-label">Date of Birth</label>
+                    <h5>@Model.DateOfBirth.ToShortDateString()</h5>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <label class="bold-label">Email Address</label>
+                    <h5>@Model.EmailAddress</h5>
+
+                    <label class="bold-label">Gender</label>
+                    <h5>@Model.Gender.ToString()</h5>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <label class="bold-label">First Shareholder</label>
+                    <h5>
+                        @Model.FirstShareHolder.FirstName @Model.FirstShareHolder.LastName
+
+                        @if (Model.HasShareHolderOneConfirmed == true)
+                        {
+                            <strong>(Verified)</strong>
+                        }
+                        else
+                        {
+                            <strong>(Not Verified)</strong>
+                        }
+
+                    </h5>
+
+                    <label class="bold-label">Second Shareholder</label>
+                    <h5>
+                        @Model.SecondShareHolder.FirstName @Model.SecondShareHolder.LastName
+
+                        @if (Model.HasShareHolderTwoConfirmed == true)
+                        {
+                            <strong>(Verified)</strong>
+                        }
+                        else
+                        {
+                            <strong>(Not Verified)</strong>
+                        }
+                    </h5>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>*@
+
+
+

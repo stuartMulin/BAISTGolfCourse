@@ -3,11 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using TheBackEndLayer.Services;
 
 namespace BAISTGOLF.Controllers
 {
     public class EmployeeController : Controller
     {
+        private readonly IEmployeeService _empService;
+        public EmployeeController(IEmployeeService empService)
+            {
+            _empService = empService;
+        }
+
         // GET: Employee
         public ActionResult Index()
         {

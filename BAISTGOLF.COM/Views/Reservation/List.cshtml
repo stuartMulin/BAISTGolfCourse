@@ -1,0 +1,13 @@
+﻿@model List<TheBackEndLayer.ViewModels.Reservation.ReservViewModels>
+    @{ 
+ ViewBag.Title = "Your Reservations";
+    Layout = "~/Views/Shared/_MemberLayout.cshtml";
+}
+<ol class="breadcrumb">
+    <li><a href="/">Home</a></li>
+    <li><a href="/reservations">Reservation Manager</a></li>
+    <li class="active">Upcoming Reservations</li>
+</ol>
+<h3>Your Upcoming Reservations</h3>
+<hr />
+<div id="calendar"></div>

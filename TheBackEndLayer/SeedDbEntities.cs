@@ -17,18 +17,21 @@ namespace TheBackEndLayer
             {
                 FirstName = "Clerk",
                 LastName = "Mason",
-                EmailAddress = "stuart@gmail.com",
-                Address = "630 McAllister Loop SW",
+                EmailAddress = "ClarkMason@gmail.com",
+                Address1 = "630 McAllister Loop SW",
                 Phone = "(647)608-1541",
                 DateCreated = DateTime.UtcNow,
                 DateOfBirth = new DateTime(1993, 2, 19),
                 Gender = Enums.Gender.Male,
                 Role = Enums.Role.Administrator,
                 UserName = "admin1",
+                PCode = "T6E 123",
+                Province = "Alberta",
+                City = "Edmonton"
             };
 
             employee1.PasswordSalt = PasswordEncryptor.CreateSalt(5);
-            employee1.Password = PasswordEncryptor.CreatePasswordHash("football2",
+            employee1.Password = PasswordEncryptor.CreatePasswordHash("Course2019@",
                 employee1.PasswordSalt);
 
             var member1 = new Members
@@ -43,7 +46,8 @@ namespace TheBackEndLayer
                 Gender = Enums.Gender.Female,
                 City = "Toronto",
                 Province = "Ontario",
-                PostalCode = "T6W 1N3"
+                PostalCode = "T6W 1N3",
+                MembershipID = "123456A"
             };
 
 
@@ -59,22 +63,23 @@ namespace TheBackEndLayer
                     Address1 = "630 McAllister Loop SW",
                     Phone = "(647)608-1541",
                     DateCreated = DateTime.UtcNow,
-                    DateOfBirth = new DateTime(1989, 2, 9 + i),
+                    DateOfBirth = new DateTime(1989, 2, (9 + i)),
                     Gender = Enums.Gender.Female,
                     City = "Toronto",
                     Province = "Ontario",
-                    PostalCode = "T6W 1N3"
+                    PostalCode = "T6W 1N3",
+                    MembershipID = "12356A" + i
                 };
 
                 memberCreate.PasswordSalt = PasswordEncryptor.CreateSalt(5);
-                memberCreate.Password = PasswordEncryptor.CreatePasswordHash("football2",
+                memberCreate.Password = PasswordEncryptor.CreatePasswordHash("Course2019",
                     memberCreate.PasswordSalt);
 
                 database.Members.AddOrUpdate(p => p.EmailAddress, memberCreate);
             }
 
             member1.PasswordSalt = PasswordEncryptor.CreateSalt(5);
-            member1.Password = PasswordEncryptor.CreatePasswordHash("football2",
+            member1.Password = PasswordEncryptor.CreatePasswordHash("Course2019",
                 member1.PasswordSalt);
 
             database.Members.AddOrUpdate(p => p.EmailAddress, member1);
@@ -82,17 +87,20 @@ namespace TheBackEndLayer
 
             var golfClub = new GolfCourse
             {
-                CourseName = "BAIST Golf Course",
+                CourseName = "Green Hill",
                 Rating = 70,
-                Slope = 5
-
+                Slope = 5,
+                DateAdded = DateTime.UtcNow,
+                YearFounded = new DateTime(1998, 2, 19)
             };
 
             var golfClub2 = new GolfCourse
             {
-                CourseName = "Accounting Golf Course",
+                CourseName = "Flat Green",
                 Rating = 75,
-                Slope = 5
+                Slope = 5,
+                DateAdded = DateTime.UtcNow,
+                YearFounded = new DateTime(1998, 2, 19)
             };
 
             database.GolfCourses.AddOrUpdate(p => p.ID, golfClub);
@@ -100,56 +108,59 @@ namespace TheBackEndLayer
 
             database.SaveChanges();
 
+            var validStartTeeTime = new DateTime(DateTime.Now.Year, DateTime.Now.Month,
+                DateTime.Now.Day + 1, 10, 0, 0);
+
             var teeTime = new TeeTime
             {
                 DateCreated = DateTime.Now,
-                StartDate = DateTime.Now.AddMinutes(15),
-                EndDate = DateTime.Now.AddMinutes(45),
-                TeeState = Enums.TeeTimeStatus.Open,
-                GolfCourseID = 1
+                StartDate = validStartTeeTime,
+                EndDate = validStartTeeTime.AddHours(2),
+                Status = Enums.TeeTimeStatus.Open,
+                GolfCourseID = 2
             };
             var teeTimeTwo = new TeeTime
             {
                 DateCreated = DateTime.Now,
-                StartDate = DateTime.Now.AddMinutes(60),
-                EndDate = DateTime.Now.AddMinutes(90),
-                TeeState = Enums.TeeTimeStatus.Open,
-                GolfCourseID = 1
+                StartDate = validStartTeeTime,
+                EndDate = validStartTeeTime.AddHours(2),
+                Status = Enums.TeeTimeStatus.Open,
+                GolfCourseID = 3
             };
 
             var teeTime3 = new TeeTime
             {
                 DateCreated = DateTime.Now,
-                StartDate = DateTime.Now.AddMinutes(120),
-                EndDate = DateTime.Now.AddMinutes(150),
-                TeeState = Enums.TeeTimeStatus.Open,
-                GolfCourseID = 1
+                StartDate = validStartTeeTime.AddHours(2),
+                EndDate = validStartTeeTime.AddHours(4),
+                Status = Enums.TeeTimeStatus.Open,
+                GolfCourseID = 3
             };
 
 
             var teeTime4 = new TeeTime
             {
                 DateCreated = DateTime.Now,
-                StartDate = DateTime.Now.AddMinutes(180),
-                EndDate = DateTime.Now.AddMinutes(210),
-                TeeState = Enums.TeeTimeStatus.Open,
-                GolfCourseID = 1
+                StartDate = validStartTeeTime.AddHours(2),
+                EndDate = validStartTeeTime.AddHours(4),
+                Status = Enums.TeeTimeStatus.Open,
+                GolfCourseID = 2
             };
 
             var teeTime5 = new TeeTime
             {
                 DateCreated = DateTime.Now,
-                StartDate = DateTime.Now.AddMinutes(240),
-                EndDate = DateTime.Now.AddMinutes(270),
-                TeeState = Enums.TeeTimeStatus.Open,
-                GolfCourseID = 1
+                StartDate = validStartTeeTime.AddHours(4),
+                EndDate = validStartTeeTime.AddHours(6),
+                Status = Enums.TeeTimeStatus.Open,
+                GolfCourseID = 2
             };
 
-            database.TeeTime.AddOrUpdate(p => p.Id, teeTime);
-            database.TeeTime.AddOrUpdate(p => p.Id, teeTimeTwo);
-            database.TeeTime.AddOrUpdate(p => p.Id, teeTime3);
-            database.TeeTime.AddOrUpdate(p => p.Id, teeTime4);
-            database.TeeTime.AddOrUpdate(p => p.Id, teeTime5);
+            database.TeeTime.AddOrUpdate(p => new { p.GolfCourseID, p.StartDate }, teeTime);
+            database.TeeTime.AddOrUpdate(p => new { p.GolfCourseID, p.StartDate }, teeTimeTwo);
+            database.TeeTime.AddOrUpdate(p => new { p.GolfCourseID, p.StartDate }, teeTime3);
+            database.TeeTime.AddOrUpdate(p => new { p.GolfCourseID, p.StartDate }, teeTime4);
+            database.TeeTime.AddOrUpdate(p => new { p.GolfCourseID, p.StartDate }, teeTime5);
 
 
             database.SaveChanges();

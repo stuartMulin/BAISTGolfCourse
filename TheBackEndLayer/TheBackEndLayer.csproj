@@ -30,80 +30,277 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper, Version=4.1.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.4.1.1\lib\net45\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Core.4.3.1\lib\net45\Castle.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Castle.Windsor, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Windsor.4.1.1\lib\net45\Castle.Windsor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CommonServiceLocator, Version=2.0.1.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.2.0\lib\net45\CommonServiceLocator.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.Core, Version=2.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.Core.2.4.0\lib\net45\Microsoft.AspNet.SignalR.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.SystemWeb, Version=2.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.SystemWeb.2.4.0\lib\net45\Microsoft.AspNet.SignalR.SystemWeb.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin, Version=4.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.4.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=4.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.4.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.2.1.0\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System.Core" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="Unity.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.2.0\lib\net45\Unity.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Configuration, Version=5.0.3.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.2.0\lib\net45\Unity.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Container, Version=5.2.0.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.2.0\lib\net45\Unity.Container.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Interception, Version=5.0.4.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.2.0\lib\net45\Unity.Interception.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Interception.Configuration, Version=5.0.4.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.2.0\lib\net45\Unity.Interception.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mvc5, Version=1.3.0.0, Culture=neutral, PublicKeyToken=43da31bc42a85347, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.Mvc5.1.3.0\lib\net45\Unity.Mvc5.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RegistrationByConvention, Version=2.0.2.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.2.0\lib\net45\Unity.RegistrationByConvention.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ServiceLocation, Version=2.0.3.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.2.0\lib\net45\Unity.ServiceLocation.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\UnityConfig.cs" />
+    <Compile Include="DbModels\Applicants.cs" />
     <Compile Include="DbModels\BAISTGolfCourseDbContext.cs" />
     <Compile Include="DbModels\Employees.cs" />
     <Compile Include="DbModels\GolfCourse.cs" />
     <Compile Include="DbModels\HandiCap.cs" />
     <Compile Include="DbModels\Hole.cs" />
-    <Compile Include="DbModels\Login.cs" />
     <Compile Include="DbModels\Members.cs" />
     <Compile Include="DbModels\Reservations.cs" />
-    <Compile Include="DbModels\Scores.cs" />
+    <Compile Include="DbModels\PlayerScores.cs" />
     <Compile Include="DbModels\TeeTime.cs" />
-    <Compile Include="DbModels\Users.cs" />
-    <Compile Include="Enums\GeneralEnums.cs" />
+    <Compile Include="Infrastructure\AutoMapperAdapter.cs" />
+    <Compile Include="Helpers\Encorder.cs" />
+    <Compile Include="Enums\Enumerators.cs" />
+    <Compile Include="Infrastructure\IAutoMapper.cs" />
+    <Compile Include="Infrastructure\IAutoMapperTypeConfigurator.cs" />
     <Compile Include="Helpers\PasswordEncryptor.cs" />
+    <Compile Include="Helpers\ProvincesModel.cs" />
+    <Compile Include="Infrastructure\Maps\ApplicantsMap.cs" />
+    <Compile Include="Infrastructure\Maps\CreateInPutModelApplicant.cs" />
+    <Compile Include="Infrastructure\Maps\EmployeesMap.cs" />
+    <Compile Include="Infrastructure\Maps\EmpViewModel.cs" />
+    <Compile Include="Infrastructure\Maps\HoleMap.cs" />
+    <Compile Include="Infrastructure\Maps\LoginInPutViewModel.cs" />
+    <Compile Include="Infrastructure\Maps\MembersMap.cs" />
+    <Compile Include="Infrastructure\Maps\MembersViewModel.cs" />
+    <Compile Include="Infrastructure\Maps\ReservationMap.cs" />
+    <Compile Include="Infrastructure\Maps\ReservationsViewModel.cs" />
+    <Compile Include="Infrastructure\Maps\TeeTimeMap.cs" />
     <Compile Include="InViewModels\CreateInputModel.cs" />
+    <Compile Include="InViewModels\CreateInputModelWithMember.cs" />
     <Compile Include="InViewModels\CreatePlayerScore.cs" />
-    <Compile Include="Migrations\201803060312439_InitialMigration.cs" />
-    <Compile Include="Migrations\201803060312439_InitialMigration.Designer.cs">
-      <DependentUpon>201803060312439_InitialMigration.cs</DependentUpon>
+    <Compile Include="InViewModels\GetInputModelForAdmin.cs" />
+    <Compile Include="InViewModels\ScoreCardReport.cs" />
+    <Compile Include="InViewModels\UserScoreViewModel.cs" />
+    <Compile Include="Migrations\201902220323244_InitialMigration.cs" />
+    <Compile Include="Migrations\201902220323244_InitialMigration.Designer.cs">
+      <DependentUpon>201902220323244_InitialMigration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ApplicantsRepository.cs" />
+    <Compile Include="Repositories\EmpRepository.cs" />
+    <Compile Include="Repositories\GenericRepository.cs" />
+    <Compile Include="Repositories\GolfCourseRepositorycs.cs" />
+    <Compile Include="Repositories\HandiCapRepository.cs" />
+    <Compile Include="Repositories\HoleRepository.cs" />
+    <Compile Include="Repositories\IApplicantsRepository.cs" />
+    <Compile Include="Repositories\IEmpRepository.cs" />
+    <Compile Include="Repositories\IGCourseRepository.cs" />
+    <Compile Include="Repositories\IGenericRepository.cs" />
+    <Compile Include="Repositories\IHandiCapRepository.cs" />
+    <Compile Include="Repositories\IHoleRepository.cs" />
+    <Compile Include="Repositories\IMemberRepository.cs" />
+    <Compile Include="Repositories\IPlayerScoreRepository.cs" />
+    <Compile Include="Repositories\IReserveRepository.cs" />
+    <Compile Include="Repositories\MemberRepository.cs" />
+    <Compile Include="Repositories\TeeTimeRepository.cs" />
+    <Compile Include="Repositories\ITeeTimeRepository.cs" />
+    <Compile Include="Repositories\PlayerScoreRepository.cs" />
+    <Compile Include="Repositories\ReserveRepository.cs" />
     <Compile Include="SeedDbEntities.cs" />
-    <Compile Include="Services\Decision.cs" />
+    <Compile Include="Services\AppService.cs" />
     <Compile Include="Services\EmailService.cs" />
-    <Compile Include="Services\EmployeeSevice.cs" />
-    <Compile Include="Services\MembersService.cs" />
+    <Compile Include="Services\EmployeeService.cs" />
+    <Compile Include="Services\IAppService.cs" />
+    <Compile Include="Services\IEmailService.cs" />
+    <Compile Include="Services\IEmployeeService.cs" />
+    <Compile Include="Services\IMemberService.cs" />
+    <Compile Include="Services\IReservationService.cs" />
+    <Compile Include="Services\IScoreService.cs" />
+    <Compile Include="Services\ITeeTimesService.cs" />
+    <Compile Include="Services\MemberService.cs" />
     <Compile Include="Services\ReservationService.cs" />
     <Compile Include="Services\ScoreService.cs" />
-    <Compile Include="Services\TeeTimeService.cs" />
+    <Compile Include="Services\TeeTimesService.cs" />
+    <Compile Include="ViewModels\Applicants\ApplicantsViewModel.cs" />
+    <Compile Include="ViewModels\Applicants\AppReportViewModel.cs" />
+    <Compile Include="ViewModels\Applicants\AppRequestViewModel.cs" />
     <Compile Include="ViewModels\Employee\EmployeeViewModel.cs" />
     <Compile Include="ViewModels\ForInputModels\AllInput.cs" />
-    <Compile Include="ViewModels\ForInputModels\ForAllReservationsViewModel.cs" />
+    <Compile Include="ViewModels\ForInputModels\Applicants\CreateInPutModel.cs" />
+    <Compile Include="ViewModels\ForInputModels\FindTeeTimeModel.cs" />
+    <Compile Include="ViewModels\ForInputModels\CreateReservInputModel.cs" />
     <Compile Include="ViewModels\GolfCourse\GolfCourseViewModel.cs" />
     <Compile Include="ViewModels\Handicap\HandicapViewModel.cs" />
     <Compile Include="ViewModels\HolebyHole\HoleViewModel.cs" />
-    <Compile Include="ViewModels\Login\LoginInput.cs" />
+    <Compile Include="ViewModels\Login\LoginInputModel.cs" />
     <Compile Include="ViewModels\Members\MembersViewModel.cs" />
     <Compile Include="ViewModels\ReservationScores\ReservationScoreViewModel.cs" />
     <Compile Include="ViewModels\Reservations\CreateReservationModel.cs" />
     <Compile Include="ViewModels\Reservations\FindTeeTimeViewModel.cs" />
     <Compile Include="ViewModels\Reservations\MemberTeeTimeViewModel.cs" />
     <Compile Include="ViewModels\Reservations\ReservationCreateModel.cs" />
-    <Compile Include="ViewModels\Reservations\ReservationViewModels.cs" />
+    <Compile Include="ViewModels\Reservations\ReserveViewModels.cs" />
     <Compile Include="ViewModels\Reservations\TeeTimeViewModel.cs" />
+    <Compile Include="ViewModels\Reservations\TeeTimeWithMembersViewModel.cs" />
+    <Compile Include="ViewModels\Scores\CreateInPutModel.cs" />
+    <Compile Include="ViewModels\Scores\CreatePlayerScorecs.cs" />
     <Compile Include="ViewModels\Scores\PlayerScoreViewModel.cs" />
     <Compile Include="ViewModels\Scores\ScoreCard.cs" />
+    <Compile Include="ViewModels\TeeTimeWithMembersViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ViewModels\StandingReservations\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="fonts\glyphicons-halflings-regular.woff" />
     <None Include="packages.config" />
+    <None Include="Scripts\esm\popper-utils.js.map" />
+    <None Include="Scripts\esm\popper-utils.min.js.map" />
+    <None Include="Scripts\esm\popper.js.map" />
+    <None Include="Scripts\esm\popper.min.js.map" />
+    <None Include="Scripts\jquery-3.3.1.min.map" />
+    <None Include="Scripts\jquery-3.3.1.slim.min.map" />
+    <None Include="Scripts\popper-utils.js.map" />
+    <None Include="Scripts\popper-utils.min.js.map" />
+    <None Include="Scripts\popper.js.map" />
+    <None Include="Scripts\popper.min.js.map" />
+    <None Include="Scripts\README.md" />
+    <None Include="Scripts\umd\popper-utils.js.map" />
+    <None Include="Scripts\umd\popper-utils.min.js.map" />
+    <None Include="Scripts\umd\popper.js.map" />
+    <None Include="Scripts\umd\popper.min.js.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201803060312439_InitialMigration.resx">
-      <DependentUpon>201803060312439_InitialMigration.cs</DependentUpon>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\esm\popper-utils.js" />
+    <Content Include="Scripts\esm\popper-utils.min.js" />
+    <Content Include="Scripts\esm\popper.js" />
+    <Content Include="Scripts\esm\popper.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.3.1.js" />
+    <Content Include="Scripts\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
+    <Content Include="Scripts\jquery.signalR-2.4.0.js" />
+    <Content Include="Scripts\jquery.signalR-2.4.0.min.js" />
+    <Content Include="Scripts\popper-utils.js" />
+    <Content Include="Scripts\popper-utils.min.js" />
+    <Content Include="Scripts\popper.js" />
+    <Content Include="Scripts\popper.min.js" />
+    <Content Include="Scripts\umd\popper-utils.js" />
+    <Content Include="Scripts\umd\popper-utils.min.js" />
+    <Content Include="Scripts\umd\popper.js" />
+    <Content Include="Scripts\umd\popper.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="Scripts\index.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201902220323244_InitialMigration.resx">
+      <DependentUpon>201902220323244_InitialMigration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

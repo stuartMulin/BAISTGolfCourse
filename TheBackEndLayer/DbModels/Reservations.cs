@@ -11,7 +11,7 @@ namespace TheBackEndLayer.DbModels
     {
         public Reservations()
         {
-            PlayerScores = new HashSet<Scores>();
+            PlayerScores = new HashSet<PlayerScores>();
         }
         public int ID { get; set; }
         public int TeeTimeID { get; set; }
@@ -25,8 +25,10 @@ namespace TheBackEndLayer.DbModels
         public ReservationStatus Status { get; set; }
         public ReservationType Type { get; set; }
 
+     
+
         [ForeignKey("MemberID")]
         public Members Member { get; set; }
-        public virtual ICollection<Scores> PlayerScores { get; set; }
+        public virtual ICollection<PlayerScores> PlayerScores { get; set; }
     }   
 }

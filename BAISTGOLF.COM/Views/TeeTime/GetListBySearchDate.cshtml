@@ -19,6 +19,9 @@ else
                     Status
                 </th>
                 <th>
+                    Golf Course
+                </th>
+                <th>
                     Number Of Reservations
                 </th>
                 <th></th>
@@ -26,23 +29,26 @@ else
 
             @foreach (var teeTime in Model)
             {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => teeTime.StartDate)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => teeTime.EndDate)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => teeTime.Status)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => teeTime.ReservationCount)
-                    </td>
-                    <td>
-                        <button class="btn btn-success" onclick="selectTeeTime(@teeTime.ID, '@teeTime.StartDate.ToShortDateString()', '@teeTime.StartDate.ToShortTimeString()', '@teeTime.EndDate.ToShortDateString()', '@teeTime.EndDate.ToShortTimeString()', @teeTime.ReservationCount)">Select</button>
-                    </td>
-                </tr>
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => teeTime.StartDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => teeTime.EndDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => teeTime.Status)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => teeTime.GolfCourseName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => teeTime.ReservationCount)
+                </td>
+                <td>
+                    <button class="btn btn-success" onclick="selectTeeTime(@teeTime.ID, '@teeTime.StartDate.ToShortDateString()', '@teeTime.StartDate.ToShortTimeString()', '@teeTime.EndDate.ToShortDateString()', '@teeTime.EndDate.ToShortTimeString()', @teeTime.ReservationCount)">Select</button>
+                </td>
+            </tr>
             }
 
         </table>

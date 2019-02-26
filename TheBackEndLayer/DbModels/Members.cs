@@ -10,6 +10,7 @@ namespace TheBackEndLayer.DbModels
         public Members()
         {
             Reservation = new HashSet<Reservations>();
+            Scores = new HashSet<PlayerScores>();
         }
        
         [Required]
@@ -24,6 +25,7 @@ namespace TheBackEndLayer.DbModels
         public string Password { get; set; }
         public DateTime DateOfBirth { get; set; }
         public DateTime DateCreated { get; set; }
+        public int? ApplicantID { get; set; }
 
         public string PasswordSalt { get; set; }
         public string Address1 { get; set; }
@@ -33,10 +35,14 @@ namespace TheBackEndLayer.DbModels
         public string City { get; set; }
         public string Province { get; set; }
         public string PostalCode { get; set; }
+        public Applicants PreviousApplication { get; set; }
+        public ICollection<Applicants> Applicants { get; set; }
         [Required]
         public string Phone { get; set; }
         public string AlternatePhone { get; set; }
         public string MembershipType { get; set; }
+        public string MembershipID { get; set; }
         public ICollection<Reservations> Reservation { get; set; }
+        public ICollection<PlayerScores> Scores { get; set; }
     }
 }

@@ -1,0 +1,143 @@
+H:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.csprojResolveAssemblyReference.cache
+H:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.Migrations.201803010342107_InitialMigration.resources
+H:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.csproj.GenerateResource.Cache
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\TheBackEndLayer.dll.config
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\TheBackEndLayer.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\TheBackEndLayer.pdb
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\EntityFramework.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\EntityFramework.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.dll
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.pdb
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.Migrations.InitialMigration.resources
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.csproj.GenerateResource.Cache
+E:\Golf2018\BaistOnlineGolfSystem\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.csprojResolveAssemblyReference.cache
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\TheBackEndLayer.dll.config
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\TheBackEndLayer.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\TheBackEndLayer.pdb
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\EntityFramework.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\EntityFramework.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.Migrations.InitialMigration.resources
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.csproj.GenerateResource.cache
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.csproj.CoreCompileInputs.cache
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.csproj.CopyComplete
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.dll
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.pdb
+C:\Users\Stuart\Downloads\BAIST GOLFCOURSE-20190110T040839Z-001\BAIST GOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.csprojAssemblyReference.cache
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\TheBackEndLayer.dll.config
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\TheBackEndLayer.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\TheBackEndLayer.pdb
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\AutoMapper.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Castle.Core.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Castle.Windsor.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\CommonServiceLocator.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\EntityFramework.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\System.Web.Helpers.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\System.Web.Mvc.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\System.Web.Razor.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\System.Web.WebPages.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.Abstractions.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.Configuration.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.Container.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.Interception.Configuration.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.Interception.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.Mvc5.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.RegistrationByConvention.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.ServiceLocation.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\AutoMapper.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Castle.Core.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Castle.Windsor.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\CommonServiceLocator.pdb
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\EntityFramework.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\System.Web.Helpers.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\System.Web.Mvc.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\System.Web.Razor.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\System.Web.WebPages.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.Abstractions.pdb
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.Configuration.pdb
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.Container.pdb
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.Interception.pdb
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.Interception.Configuration.pdb
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.RegistrationByConvention.pdb
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.ServiceLocation.pdb
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.Migrations.InitialMigration.resources
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.Migrations.UpdateScoreDbModel.resources
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.csproj.GenerateResource.cache
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.csproj.CoreCompileInputs.cache
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.csproj.CopyComplete
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.dll
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.pdb
+C:\Users\Stuart\Downloads\BAIST\BAISTGOLFCOURSE\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.csprojAssemblyReference.cache
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\TheBackEndLayer.dll.config
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\TheBackEndLayer.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\TheBackEndLayer.pdb
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\AutoMapper.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Castle.Core.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Castle.Windsor.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\CommonServiceLocator.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\EntityFramework.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\System.Web.Helpers.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\System.Web.Mvc.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\System.Web.Razor.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\System.Web.WebPages.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.Abstractions.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.Configuration.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.Container.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.Interception.Configuration.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.Interception.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.Mvc5.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.RegistrationByConvention.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.ServiceLocation.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\AutoMapper.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Castle.Core.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Castle.Windsor.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\CommonServiceLocator.pdb
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\EntityFramework.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\System.Web.Helpers.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\System.Web.Mvc.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\System.Web.Razor.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\System.Web.WebPages.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.Abstractions.pdb
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.Configuration.pdb
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.Container.pdb
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.Interception.pdb
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.Interception.Configuration.pdb
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.RegistrationByConvention.pdb
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Unity.ServiceLocation.pdb
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.Migrations.InitialMigration.resources
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.csproj.GenerateResource.Cache
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.pdb
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Microsoft.Owin.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Owin.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Microsoft.Owin.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.pdb
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.csprojResolveAssemblyReference.cache

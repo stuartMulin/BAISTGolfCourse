@@ -1,80 +1,33 @@
-﻿@model IEnumerable<TheBackEndLayer.ViewModels.Reservation.ReservationViewModels>
-
+﻿
 @{
-    ViewBag.Title = "Reservations";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MemberLayout.cshtml";
 }
+<ol class="breadcrumb">
+    <li><a href="/">Home</a></li>
+    <li class="active">Reservation Manager</li>
+</ol>
+<div class="col-xs-12 m-t-25">
 
-<h2>Manage Reservations</h2>
 
-<p style="margin-top: 15px">
-    @Html.ActionLink("Create New", "Create", null, new { @class="btn btn-primary" })
-</p>
-
-
-@if (Model != null)
-{
-    <table class="table">
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.FirstName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.LastName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.TeeTimeID)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.TeeTimeStartDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.TeeTimeEndDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DateCreated)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.golfCourse)
-            </th>
-            <th></th>
-        </tr>
-
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.FirstName)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.LastName)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.TeeTimeID)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.TeeTimeStartDate)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.TeeTimeEndDate)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.DateCreated)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.golfCourse)
-                </td>
-                <td>
-                    @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
-                    @Html.ActionLink("Details", "Details", new { id = item.ID }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.ID })
-                </td>
-            </tr>
-        }
-
-    </table>
-} else
-{
-    <span>There are no reservations yet...</span>
-}
-
+    <div class="col-xs-12 col-md-3 col-sm-4 m-b-15 mouse-like" onclick="createReservation()">
+        <div class="col-xs-12 green-bar text-center">
+            <span class="white-big-span"><i class="fa fa-plus m-r-10"></i>CREATE RESERVATION</span>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-3 col-sm-4 m-b-15 mouse-like" onclick="reservationList()">
+        <div class="col-xs-12 purple-bar text-center">
+            <span class="white-big-span"><i class="fa fa-list m-r-10"></i>UPCOMING RESERVATIONS</span>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-3 col-sm-4 m-b-15">
+        <div class="col-xs-12 blue-bar text-center">
+            <span class="white-big-span"><i class="fa fa-clock-o m-r-10"></i>TEE TIMES SCHEDULE</span>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-3 col-sm-4 m-b-15">
+        <div class="col-xs-12 black-bar text-center">
+            <span class="white-big-span"><i class="fa fa-history m-r-10"></i>HISTORY</span>
+        </div>
+    </div>
+</div>

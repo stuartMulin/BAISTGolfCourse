@@ -6,16 +6,42 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-
 using TheBackEndLayer.ViewModels.Reservation;
 using TheBackEndLayer.Services;
+using TheBackEndLayer.Repositories;
+using TheBackEndLayer.ViewModels.ForInputModels;
+using TheBackEndLayer.ViewModels.Members;
+using TheBackEndLayer.Enums;
+using TheBackEndLayer.ViewModels.HandlesInPutModels;
+using TheBackEndLayer.ViewModels.Reservations;
+using TheBackEndLayer.Helpers;
 
 namespace TheBackEndLayer.Services
 {
-    public class ReservationService
+    public class ReservationService: IReservationService
     {
-        public List<ReservationViewModels> GetReservations(int memberId)
+        //create fields for repository classes that will be used here//
+        private readonly ITeeTimeRepository _teeTimeRepository;
+        private readonly IReserveRepository _reservationRepository;
+        private readonly IMemberRepository _memberRepository;
+        private readonly IEmpRepository _employeeRepository;
+        private readonly IAutoMapper _IAutoMapperr;
+        private readonly IAutoMapper _autoMapper;
+        public ReservationService(IMemberRepository memberRepository,
+            IReserveRepository reserveRepository,
+            ITeeTimeRepository teeTimeRepository,
+            IEmpRepository empRepository ,IAutoMapper autoMapper)
+        {
+            _memberRepository = memberRepository;
+            _reservationRepository = reserveRepository;
+            _teeTimeRepository= teeTimeRepository;
+            _autoMapper = autoMapper;
+            _employeeRepository = empRepository;
+            _IAutoMapperr = autoMapper;
+
+        }
+
+        public List<ReservViewModels> GetReservations(int memberId)
         {
 
             using (var db = new BAISTGolfCourseDbContext())
@@ -27,7 +53,7 @@ namespace TheBackEndLayer.Services
 
                 if (reservations.Count > 0)
                 {
-                    var listOfReservations = new List<ReservationViewModels>();
+                    var listOfReservations = new List<ReservViewModels>();
 
                     foreach (var reservation in reservations)
                     {
@@ -46,89 +72,333 @@ namespace TheBackEndLayer.Services
             }
         }
 
-        public ReservationViewModels GetById(int id)
+        
+        private ReservViewModels PopulateViewModel(Reservations reservation)
         {
-            using (var db = new BAISTGolfCourseDbContext())
+            var reservationViewModel = new ReservViewModels
             {
-                var reservation = db.Reservations.Include(x => x.Member).SingleOrDefault(x => x.ID == id);
-
-                return PopulateViewModel(reservation);
-            }
-
-        }
-
-        private ReservationViewModels PopulateViewModel(Reservations reservation)
-        {
-            var reservationViewModel = new ReservationViewModels
-            {
+                ID = reservation.ID,
                 DateCreated = reservation.DateCreated,
                 TeeTimeID = reservation.TeeTimeID,
-                golfCourse = reservation.TeeTime.GolfCourse.CourseName,
+                GolfCourse = reservation.TeeTime.GolfCourse.CourseName,
                 TeeTimeStartDate = reservation.TeeTime.StartDate,
                 TeeTimeEndDate = reservation.TeeTime.EndDate,
-                FirstName = reservation.Member.FirstName,
-                LastName = reservation.Member.LastName
+                Status = reservation.Status
             };
 
             return reservationViewModel;
 
         }
 
-        public bool CreateReservation(CreateReservationModel model, int memberID)
+        public void CreateNormalReservation(CreateReservationModel model, int memberID)
         {
-            var successful = false;
-
-            try
+            if (model.PotentialReservations.Count > 4)
             {
-                //TODO: Send email to members added 
+                throw new Exception("Members should not be more than 4");
+            }
 
-                using (var db = new BAISTGolfCourseDbContext())
+            var teeTimeRepo = new TeeTimeRepository(new BAISTGolfCourseDbContext());
+
+            var teeTime = teeTimeRepo.GetWithReservationsById(model.TeeTimeID);
+
+            foreach (var member in model.PotentialReservations)
+            {
+                var reservation = new Reservations
                 {
-                    
-                    AddCurrentUserToReservation(model, memberID);
+                    DateCreated = DateTime.Now,
+                    TeeTimeID = model.TeeTimeID,
+                    MemberID = member.MemberID,
+                    Status = member.Status,
+                    IsApproved = false,
+                    Type = Enums.ReservationType.Normal
+                };
 
-                    foreach (var member in model.PotentialReservations)
-                    {
-                        var reservation = new Reservations
-                        {
-                            DateCreated = DateTime.Now,
-                            TeeTimeID = model.TeeTimeID,
-                            MemberID = member.MemberID,
-                            Status = member.Status,
-                            IsApproved = false,
-                            Type = Enums.ReservationType.Normal
-                        };
+                teeTime.Reservations.Add(reservation);
+            }
 
-                        db.Reservations.Add(reservation);
-                    }
+            var reservationCount = teeTime.Reservations.Count;
 
-                    var reservationCount = model.PotentialReservations.Count;
+            if (reservationCount == 4)
+            {
+                teeTime.Status = Enums.TeeTimeStatus.Closed;
+            }
 
-                    if (reservationCount == 4)
-                    {
-                        var teeTime = db.TeeTime.SingleOrDefault(x => x.Id == model.TeeTimeID);
-                        teeTime.TeeState = Enums.TeeTimeStatus.Closed;
-                    }
+            teeTimeRepo.SaveChanges();
+        }
 
-                    db.SaveChanges();
+        public void CreateStandingReservation(CreateReservationModel model, int memberID)
+        {
+            var teeTimeRepo = new TeeTimeRepository(new BAISTGolfCourseDbContext());
+
+            var teeTime = teeTimeRepo.GetWithReservationsById(model.TeeTimeID);
+
+            foreach (var member in model.PotentialReservations)
+            {
+                var reservation = new Reservations
+                {
+                    DateCreated = DateTime.Now,
+                    TeeTimeID = model.TeeTimeID,
+                    MemberID = member.MemberID,
+                    Status = member.Status,
+                    IsApproved = false,
+                    Type = Enums.ReservationType.Standing
+                };
+
+                teeTime.Reservations.Add(reservation);
+            }
+
+            teeTime.Status = Enums.TeeTimeStatus.Closed;
+
+            teeTimeRepo.SaveChanges();
+        }
+        public MembersViewModel AddMemberToReservation(string memberID, int teeTimeID,
+           string currentMemberID)
+        {
+
+            Members member = _memberRepository.FindBy(x => x.EmailAddress == memberID)
+                .SingleOrDefault();
+
+            if (member == null)
+            {
+                memberID = memberID.ToLower();
+                member = _memberRepository.FindBy(x => x.MembershipID.ToLower() == memberID).
+                SingleOrDefault();
+            }
+
+
+            if (member != null)
+            {
+                if (member.MembershipID.ToLower() == currentMemberID.ToLower())
+                {
+                    return null;
                 }
 
-                successful = true;
-                return successful;
-            }
-            catch
-            {
-                return successful;
-            }
+                var reservation = _reservationRepository.FindBy(x => x.MemberID == member.ID
+                && x.TeeTimeID == teeTimeID).SingleOrDefault();
 
-           
+                if (reservation != null)
+                {
+                    return null;
+                }
+                var memberViewModel = _autoMapper.Map<MembersViewModel>(member);
+
+                return memberViewModel;
+            }
+            else
+            {
+                return null;
+            }
         }
 
+        public List<TeeTimeViewModel> FindTeeTimes(FindTeeTimeViewModel teeTimeFinder)
+        {
+            var startDate = DateTime.Parse(teeTimeFinder.StartDate + " " + teeTimeFinder.StartTime);
+            var endDate = DateTime.Parse(teeTimeFinder.EndDate + " " + teeTimeFinder.EndTime);
+
+            var teeTimes = _teeTimeRepository.GetList(startDate, endDate);
+
+            var teeTimesViewModel = teeTimes.Select(x => new TeeTimeViewModel
+            {
+                StartDate = x.StartDate,
+                EndDate = x.EndDate,
+                Status = x.Status,
+                ID = x.Id,
+                ReservationCount = x.Reservations.Count
+            });
+
+            return teeTimesViewModel.ToList();
+        }
+
+        public List<MembersViewModel> AddMemberToReservationDB(string memberID, int teeTimeID)
+        {
+            var listOfMembersInTeeTime = new List<MembersViewModel>();
+
+            Members member = _memberRepository.FindBy(x => x.EmailAddress == memberID).SingleOrDefault();
+
+            if (member == null)
+                member = _memberRepository.FindBy(x => x.MembershipID == memberID).
+                SingleOrDefault();
+
+            if (member != null)
+            {
+                var reservation = new Reservations
+                {
+                    DateCreated = DateTime.UtcNow,
+                    MemberID = member.ID,
+                    TeeTimeID = teeTimeID,
+                    Status = ReservationStatus.Rejected
+                };
+
+                //TODO Send Email To Members Invited
+
+                _reservationRepository.Add(reservation);
+                _reservationRepository.SaveChanges();
+
+                var memberViewModel = _autoMapper.Map<MembersViewModel>(member);
+                listOfMembersInTeeTime.Add(memberViewModel);
+                return listOfMembersInTeeTime;
+            }
+            else
+            {
+                return listOfMembersInTeeTime;
+            }
+        }
+        public bool CreateReservation(CreateReserveInputModel inputModel, string currentMemberID)
+        {
+            var currentMember = _memberRepository.FindBy(x => x.EmailAddress ==
+            currentMemberID).SingleOrDefault();
+
+            var checkReservation = _reservationRepository.FindBy(x => x.MemberID ==
+            currentMember.ID &&
+            x.TeeTimeID == inputModel.TeetimeId).SingleOrDefault();
+
+            if (checkReservation == null)
+            {
+                //Create Reservation For Current Member
+                var reservationMember = new Reservations
+                {
+                    DateCreated = DateTime.UtcNow,
+                    Status = ReservationStatus.Accepted,
+                    MemberID = currentMember.ID,
+                    TeeTimeID = inputModel.TeetimeId
+                };
+                _reservationRepository.Add(reservationMember);
+                _reservationRepository.SaveChanges();
+
+
+                if (inputModel.Reservations.Count > 0)
+                {
+                    foreach (var reservation in inputModel.Reservations)
+                    {
+                        var check = _reservationRepository.FindBy(x => x.MemberID ==
+                        reservation.MemberId &&
+                        x.TeeTimeID == inputModel.TeetimeId).SingleOrDefault();
+
+                        if (check == null)
+                        {
+                            var newReservation = new Reservations
+                            {
+                                DateCreated = DateTime.UtcNow,
+                                Status = (ReservationStatus)reservation.CurrentStatus,
+                                MemberID = reservation.MemberId,
+                                TeeTimeID = inputModel.TeetimeId
+                            };
+                            _reservationRepository.Add(newReservation);
+                            _reservationRepository.SaveChanges();
+                        }
+                    }
+                }
+                return true;
+            }
+
+            return false;
+        }
+
+        public List<ReservViewModels> GetReservations(string email)
+        {
+            var member = _memberRepository.FindBy(x => x.EmailAddress == email).SingleOrDefault();
+
+            var reservations = _reservationRepository.GetListForMember(member.ID);
+            var reservationViewModels = _autoMapper.
+                Map<List<ReservViewModels>>(reservations);
+
+            return reservationViewModels;
+        }
         public void AddCurrentUserToReservation(CreateReservationModel model, int memberID)
         {
-            model.PotentialReservations.Add(new ViewModels.Reservations.ReservationCreateModel { MemberID = memberID, Status = Enums.ReservationStatus.Accepted });
+            model.PotentialReservations.Add(new ViewModels.Reservations.ReservationCreateModel
+            { MemberID = memberID, Status = Enums.ReservationStatus.Accepted });
         }
-    }
 
-    
+        public List<TeeTimeViewModel> FindTeeTimes(FindTeeTimeModel teeTimeFinder)
+        {
+            var startDate = DateTime.Parse(teeTimeFinder.StartDate + " " + teeTimeFinder.StartTime);
+            var endDate = DateTime.Parse(teeTimeFinder.EndDate + " " + teeTimeFinder.EndTime);
+
+            var teeTimes = _teeTimeRepository.GetList(startDate, endDate);
+
+            var teeTimesViewModel = teeTimes.Select(x => new TeeTimeViewModel
+            {
+                StartDate = x.StartDate,
+                EndDate = x.EndDate,
+                Status = x.Status,
+                ID = x.Id,
+                ReservationCount = x.Reservations.Count
+            });
+
+            return teeTimesViewModel.ToList();
+        }
+
+        //public bool CreateReservation(CreateReserveInputModel inputModel, string currentMemberID)
+        //{
+        //    var currentMember = _memberRepository.FindBy(x => x.EmailAddress ==
+        //   currentMemberID).SingleOrDefault();
+
+        //    var checkReservation = _reservationRepository.FindBy(x => x.MemberID ==
+        //    currentMember.ID &&
+        //    x.TeeTimeID == inputModel.TeetimeId).SingleOrDefault();
+
+        //    if (checkReservation == null)
+        //    {
+        //        //Create Reservation For Current Member
+        //        var reservationMember = new Reservations
+        //        {
+        //            DateCreated = DateTime.UtcNow,
+        //            Status = ReservationStatus.Accepted,
+        //            MemberID = currentMember.ID,
+        //            TeeTimeID = inputModel.TeetimeId
+        //        };
+        //        _reservationRepository.Add(reservationMember);
+        //        _reservationRepository.SaveChanges();
+
+
+        //        if (inputModel.Reservations.Count > 0)
+        //        {
+        //            foreach (var reservation in inputModel.Reservations)
+        //            {
+        //                var check = _reservationRepository.FindBy(x => x.MemberID ==
+        //                reservation.MemberId &&
+        //                x.TeeTimeID == inputModel.TeetimeId).SingleOrDefault();
+
+        //                if (check == null)
+        //                {
+        //                    var newReservation = new Reservations
+        //                    {
+        //                        DateCreated = DateTime.UtcNow,
+        //                        Status = (ReservationStatus)reservation.CurrentStatus,
+        //                        MemberID = reservation.MemberId,
+        //                        TeeTimeID = inputModel.TeetimeId
+        //                    };
+        //                    _reservationRepository.Add(newReservation);
+        //                    _reservationRepository.SaveChanges();
+        //                }
+        //            }
+        //        }
+        //        return true;
+        //    }
+
+        //    return false;
+        //}
+
+        //public bool CreateReservation(ReservationCreateModel inputModel, string currentMemberID)
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+        //public List<TeeTimeViewModel> FindTeeTimes(FindTeeTimeModel teeTimeFinder)
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+        //public MembersViewModel AddMemberToReservation(string memberID, int teeTimeID, string currentMemberID)
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+        //public List<ReservViewModels> GetReservations(string email)
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+    }
 }

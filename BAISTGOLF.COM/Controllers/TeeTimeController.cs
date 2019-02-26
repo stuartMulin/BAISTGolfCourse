@@ -9,15 +9,18 @@ namespace BAISTGOLF.Controllers
 {
     public class TeeTimeController : Controller
     {
-        private TeeTimeService teeTimeService = new TeeTimeService();
-        // GET: TeeTime
-        public ActionResult GetListBySearchDate(string searchDate)
+        private readonly ITeeTimesService _teeTimeService;
+        public TeeTimeController(ITeeTimesService teeTimeService)
         {
-            var searchDateObject = Convert.ToDateTime(searchDate);
-
-            var teeTimeList = teeTimeService.GetTeeTimesByDate(searchDateObject);
-
-            return PartialView(teeTimeList);
+            _teeTimeService = teeTimeService;
         }
+
+        public ActionResult GetwithMembers(int id)
+        {
+            var teeTime = _teeTimeService.GetWithMembers(id);
+            return PartialView(teeTime);
+
+        }
+     
     }
 }
