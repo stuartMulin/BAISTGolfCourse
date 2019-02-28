@@ -6,8 +6,11 @@
 .tabcontrol
 {
     display: block;
-    width: 100%;
+    width: 94%;
+    margin-left: 3%;
+    background: white;
     overflow: hidden;
+    padding-top: 8px;
 }
 
 .wizard a,
@@ -73,7 +76,7 @@
 
 .wizard > .steps > ul > li
 {
-    width: 25%;
+    width: 33.3%;
 }
 
 .wizard > .steps > ul > li,
@@ -98,9 +101,9 @@
     padding: 1em 1em;
     text-decoration: none;
 
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
 }
 
 .wizard > .steps .disabled a,
@@ -147,9 +150,9 @@
     position: relative;
     width: auto;
 
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
 }
 
 .wizard.vertical > .content
@@ -259,9 +262,9 @@
     padding: 0.5em 1em;
     text-decoration: none;
 
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
 }
 
 .wizard > .actions .disabled a,
@@ -307,12 +310,12 @@
     margin: 5px 2px 0 0;
     padding: 1px;
 
-    -webkit-border-top-left-radius: 5px;
-    -webkit-border-top-right-radius: 5px;
-    -moz-border-radius-topleft: 5px;
-    -moz-border-radius-topright: 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-topright: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
 
 .tabcontrol > .steps > ul > li:hover

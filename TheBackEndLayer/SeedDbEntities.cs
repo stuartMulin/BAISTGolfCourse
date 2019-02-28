@@ -117,7 +117,7 @@ namespace TheBackEndLayer
                 StartDate = validStartTeeTime,
                 EndDate = validStartTeeTime.AddHours(2),
                 Status = Enums.TeeTimeStatus.Open,
-                GolfCourseID = 2
+                GolfCourseID = golfClub.ID
             };
             var teeTimeTwo = new TeeTime
             {
@@ -125,7 +125,7 @@ namespace TheBackEndLayer
                 StartDate = validStartTeeTime,
                 EndDate = validStartTeeTime.AddHours(2),
                 Status = Enums.TeeTimeStatus.Open,
-                GolfCourseID = 3
+                GolfCourseID = golfClub2.ID
             };
 
             var teeTime3 = new TeeTime
@@ -134,7 +134,7 @@ namespace TheBackEndLayer
                 StartDate = validStartTeeTime.AddHours(2),
                 EndDate = validStartTeeTime.AddHours(4),
                 Status = Enums.TeeTimeStatus.Open,
-                GolfCourseID = 3
+                GolfCourseID = golfClub.ID
             };
 
 
@@ -144,7 +144,7 @@ namespace TheBackEndLayer
                 StartDate = validStartTeeTime.AddHours(2),
                 EndDate = validStartTeeTime.AddHours(4),
                 Status = Enums.TeeTimeStatus.Open,
-                GolfCourseID = 2
+                GolfCourseID = golfClub2.ID
             };
 
             var teeTime5 = new TeeTime
@@ -153,7 +153,7 @@ namespace TheBackEndLayer
                 StartDate = validStartTeeTime.AddHours(4),
                 EndDate = validStartTeeTime.AddHours(6),
                 Status = Enums.TeeTimeStatus.Open,
-                GolfCourseID = 2
+                GolfCourseID = golfClub.ID
             };
 
             database.TeeTime.AddOrUpdate(p => new { p.GolfCourseID, p.StartDate }, teeTime);

@@ -9,7 +9,7 @@ namespace BAISTGOLF.COM
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                         "~/Scripts/jquery-3.3.1.js"));
+                         "~/Scripts/jquery-3.1.1.js"));
 
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
@@ -24,17 +24,23 @@ namespace BAISTGOLF.COM
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
+                      "~/Scripts/moment.js",
                       "~/Scripts/respond.js",
-                      "~/Scripts/jquery.steps.js",
+                      "~/Scripts/DataTables/jquery.dataTables.min.js",
+                      "~/Scripts/DataTables/dataTables.bootstrap.min.js",
+                      "~/Scripts/DataTables/dataTables.buttons.min.js",
+                      "~/Scripts/DataTables/buttons.bootstrap.min.js",
+                      "~/Scripts/jquery.steps.min.js",
+                      "~/Scripts/fullcalendar.js",
                       "~/Scripts/bootstrap-datepicker.js",
+                      "~/Scripts/bootstrap-timepicker.js",
                       "~/Scripts/toastr.js",
-                      "~/Scripts/nprogress.js",
+                      "~/Scripts/nprogress.js",                     
                       "~/Scripts/generalScript.js",
                       "~/Scripts/reservation.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/Bootstrap2.css",
-
+                      "~/Content/bootstrap.css",
                       "~/Content/site.css",
                       "~/Content/bootstrap-datepicker.css",
                       "~/Content/toastr.min.css",
