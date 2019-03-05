@@ -178,6 +178,10 @@
     <Compile Include="Migrations\201902220323244_InitialMigration.Designer.cs">
       <DependentUpon>201902220323244_InitialMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201903050420453_AddMembershipStatus.cs" />
+    <Compile Include="Migrations\201903050420453_AddMembershipStatus.Designer.cs">
+      <DependentUpon>201903050420453_AddMembershipStatus.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\ApplicantsRepository.cs" />
@@ -247,6 +251,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram2.cd" />
     <None Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="fonts\glyphicons-halflings-regular.ttf" />
     <None Include="fonts\glyphicons-halflings-regular.woff" />
@@ -301,6 +306,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201902220323244_InitialMigration.resx">
       <DependentUpon>201902220323244_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903050420453_AddMembershipStatus.resx">
+      <DependentUpon>201903050420453_AddMembershipStatus.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

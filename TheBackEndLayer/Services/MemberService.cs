@@ -43,19 +43,18 @@ namespace TheBackEndLayer.Services
         }
         private MembersViewModel GetuserByEmailSearch(string EmailAddress)
         {
-            using (var db = new BAISTGolfCourseDbContext())
-            {
-                var member = db.Members.SingleOrDefault(x => x.EmailAddress == EmailAddress);
 
-                if (member != null)
-                {
-                    return PopulateViewModel(member);
-                }
-                else
-                {
-                    return new MembersViewModel();
-                }
+            var member = _memberRepository.FindBy(x => x.EmailAddress == EmailAddress).SingleOrDefault();
+
+            if (member != null)
+            {
+                return PopulateViewModel(member);
             }
+            else
+            {
+                return new MembersViewModel();
+            }
+
         }
 
         public MembersViewModel PopulateViewModel(Members member)

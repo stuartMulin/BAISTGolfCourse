@@ -13,7 +13,7 @@ namespace TheBackEndLayer.ViewModels.Reservation
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public TeeTimeStatus Status { get; set; }
-
+        public string GolfCourseName { get; set; }
         public int ReservationCount { get; set; }
     }
 

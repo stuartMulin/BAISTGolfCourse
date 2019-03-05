@@ -33,22 +33,24 @@ namespace BAISTGOLF.Controllers
         [HttpGet]
         public ActionResult Create()
         {
+            var member = _memberService.GetMemberByEmail(User.Identity.Name);
+            ViewBag.MemberID = member.ID;
             return View();
         }
-        [HttpPost]
-        public ActionResult Create(CreateReserveInputModel inputModel)
-        {
-            if (ModelState.IsValid)
-            {
-                var create = _reservationService.CreateReservation(inputModel, User.Identity.Name);
-                if (create)
-                    return Json("OK", JsonRequestBehavior.AllowGet);
-                else
-                    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            else
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-        }
+        //[HttpPost]
+        //public ActionResult Create(CreateReserveInputModel inputModel)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        var create = _reservationService.CreateReservation(inputModel, User.Identity.Name);
+        //        if (create)
+        //            return Json("OK", JsonRequestBehavior.AllowGet);
+        //        else
+        //            return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+        //    }
+        //    else
+        //        return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+        //}
 
         [HttpPost]
         public ActionResult FindTeeTime(FindTeeTimeModel teeTimeFinder)
@@ -120,7 +122,6 @@ namespace BAISTGOLF.Controllers
         [HttpPost]
         public ActionResult Create(CreateReservationModel inputModel)
         {
-
             if (ModelState.IsValid)
             {
                 var member = _memberService.GetMemberByEmail(User.Identity.Name);
@@ -131,7 +132,7 @@ namespace BAISTGOLF.Controllers
 
             }
             else
-                ModelState.AddModelError("", "unable to save chagnes. Try again, if the problem persists email system administrator");
+                ModelState.AddModelError("", "unable to save cha. Try again, if the problem persists email system administrator");
             return View(inputModel);
         }
 

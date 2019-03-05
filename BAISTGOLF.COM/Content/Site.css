@@ -472,3 +472,10 @@ h1, h2, h3, h4, h5, h6 {
 .f-s-15 {
     font-size: 15px;
 }
+
+.tee-time-detail {
+    height: auto;
+    overflow: hidden;
+    border: 1px solid lightgray;
+    background: white;
+}

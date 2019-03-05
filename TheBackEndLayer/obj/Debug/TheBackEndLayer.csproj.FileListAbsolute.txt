@@ -140,7 +140,6 @@ C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLa
 C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
 C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Microsoft.Owin.Security.xml
 C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.csprojResolveAssemblyReference.cache
 D:\Projects\BAISTGolfCourse\TheBackEndLayer\bin\Debug\TheBackEndLayer.dll.config
 D:\Projects\BAISTGolfCourse\TheBackEndLayer\bin\Debug\TheBackEndLayer.dll
 D:\Projects\BAISTGolfCourse\TheBackEndLayer\bin\Debug\TheBackEndLayer.pdb
@@ -206,3 +205,5 @@ D:\Projects\BAISTGolfCourse\TheBackEndLayer\obj\Debug\TheBackEndLayer.csproj.Cor
 D:\Projects\BAISTGolfCourse\TheBackEndLayer\obj\Debug\TheBackEndLayer.csproj.CopyComplete
 D:\Projects\BAISTGolfCourse\TheBackEndLayer\obj\Debug\TheBackEndLayer.dll
 D:\Projects\BAISTGolfCourse\TheBackEndLayer\obj\Debug\TheBackEndLayer.pdb
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.csprojResolveAssemblyReference.cache
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.Migrations.AddMembershipStatus.resources

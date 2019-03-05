@@ -1,8 +1,10 @@
 ﻿function addMemberToReservation() {
+    var memberID =  $('#memberID').val();
+    debugger;
     $.ajax({
-        url: '/Reservations/AddMembers',
+        url: '/Reservation/AddMembers',
         type: 'POST',
-        data: { memberID: $('#memberID').val(), teeTimeID: teeTimeID },
+        data: { memberID: memberID, teeTimeID: teeTimeID },
         beforeSend: function () {
             NProgress.start();
         },

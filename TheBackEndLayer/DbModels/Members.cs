@@ -40,7 +40,7 @@ namespace TheBackEndLayer.DbModels
         [Required]
         public string Phone { get; set; }
         public string AlternatePhone { get; set; }
-        public string MembershipType { get; set; }
+        public MembershipStatus MembershipType { get; set; }
         public string MembershipID { get; set; }
         public ICollection<Reservations> Reservation { get; set; }
         public ICollection<PlayerScores> Scores { get; set; }
