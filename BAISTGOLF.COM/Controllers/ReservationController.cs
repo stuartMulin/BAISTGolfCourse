@@ -37,20 +37,20 @@ namespace BAISTGOLF.Controllers
             ViewBag.MemberID = member.ID;
             return View();
         }
-        //[HttpPost]
-        //public ActionResult Create(CreateReserveInputModel inputModel)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        var create = _reservationService.CreateReservation(inputModel, User.Identity.Name);
-        //        if (create)
-        //            return Json("OK", JsonRequestBehavior.AllowGet);
-        //        else
-        //            return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-        //    }
-        //    else
-        //        return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-        //}
+        [HttpPost]
+        public ActionResult Create(CreateReserveInputModel inputModel)
+        {
+            if (ModelState.IsValid)
+            {
+                var create = _reservationService.CreateReservation(inputModel, User.Identity.Name);
+                if (create)
+                    return Json("OK", JsonRequestBehavior.AllowGet);
+                else
+                    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            else
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+        }
 
         [HttpPost]
         public ActionResult FindTeeTime(FindTeeTimeModel teeTimeFinder)
@@ -102,7 +102,7 @@ namespace BAISTGOLF.Controllers
             });
             return Json(reservationsCalendar, JsonRequestBehavior.AllowGet);
         }
-        //    public ActionResult Index()
+        //public ActionResult Index()
         //{
         //    var member = _memberService.GetMemberByEmail(User.Identity.Name);
 

@@ -39,7 +39,8 @@ namespace TheBackEndLayer.Repositories
         }
         public List<Reservations> GetListReportForMember(int memberID)
         {
-            throw new NotImplementedException();
+
+            return DbSet.Include(x => x.TeeTime).ToList();
         }
     }
 }

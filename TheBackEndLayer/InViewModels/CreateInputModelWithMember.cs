@@ -15,9 +15,9 @@ namespace TheBackEndLayer.InViewModels
             Reservations = new List<ReservationScoreViewModel>();
 
         }
-        [Required(ErrorMessage = "Required")]
+        //[Required(ErrorMessage = "Required")]
         [Display(Name = "Enter Member ID: ")]
-        [Remote("CheckMemberIDExists", "Account", HttpMethod = "POST", ErrorMessage = "Member ID does not exist")]
+        [Remote("CheckMemberNumberExists", "Account", HttpMethod = "POST", ErrorMessage = "Member ID does not exist")]
         public string MemberID { get; set; }
 
         [Required(ErrorMessage = "Required")]
@@ -39,7 +39,7 @@ namespace TheBackEndLayer.InViewModels
 
         [Required(ErrorMessage = "Required")]
         [Display(Name = "Date Played: ")]
-        public DateTime? DatePlayed { get; set; }
+        public DateTime DatePlayed { get; set; }
         public List<HoleViewModel> Holes { get; set; }
         public List<HandicapViewModel> Handicaps { get; set; }
         public List<ReservationScoreViewModel> Reservations { get; set; }

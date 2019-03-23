@@ -107,9 +107,10 @@ namespace TheBackEndLayer.Services
                 return null;
         }
 
-        public object GetMemberByMembershipNumber(string memberID)
+        public Members GetMemberByMembershipNumber(string membershipNumber)
         {
-            throw new NotImplementedException();
+            var member = _memberRepository.FindBy(x => x.MembershipID == membershipNumber).SingleOrDefault();
+            return member;
         }
         public MembersViewModel GetMemberByMembershipID(string membershipID)
         {
@@ -120,8 +121,8 @@ namespace TheBackEndLayer.Services
                 return null;
             }
             var membersViewModel = _autoMapper.Map<MembersViewModel>(members);
-            //membersViewModel.AverageScore = ScoreReport(members);
-            //membersViewModel.ReservationStats = ReservationShortReport(members);
+            membersViewModel.AverageScore = ScoreReport(members);
+            membersViewModel.ReservationStats = ReservationShortReport(members);
 
             return membersViewModel;
         }

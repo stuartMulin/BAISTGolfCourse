@@ -47,8 +47,6 @@ namespace TheBackEndLayer.Services
             var createInputModel = new CreateInputModel();
 
             var holes = _holeRepository.GetAll().ToList();
-
-
             var handicap = _handicapRepository.GetAll().ToList();
 
             var member = _memberRepository.FindBy(x => x.EmailAddress == userIdentity).SingleOrDefault();
@@ -118,8 +116,11 @@ namespace TheBackEndLayer.Services
 
             var golfCourse = reservation.TeeTime.GolfCourse;
 
-            var calculatedScore = model.Score - golfCourse.Rating;
-
+            var calculatedScore = model.Score - golfCourse.Rating / golfCourse.Slope * 113;
+            
+            
+            
+       
             var playerScoreModel = new PlayerScores
             {
                 ReservationID = model.ReservationID,
@@ -128,7 +129,7 @@ namespace TheBackEndLayer.Services
                 HoleId = model.HoleID,
                 HandicapId = model.HandicapID,
                 DateCreated = DateTime.UtcNow,
-                DatePlayed = model.DatePlayed.Value,
+                DatePlayed = model.DatePlayed,
             };
 
             _playerScoreRepository.Add(playerScoreModel);
@@ -146,11 +147,12 @@ namespace TheBackEndLayer.Services
             {
                 ReservationID = model.ReservationID,
                 MemberID = member.ID,
+                
                 Score = model.Score,
                 HoleId = model.HoleID,
                 HandicapId = model.HandicapID,
                 DateCreated = DateTime.UtcNow,
-                DatePlayed = model.DatePlayed.Value,
+                DatePlayed = model.DatePlayed,
             };
 
             _playerScoreRepository.Add(playerScoreModel);

@@ -113,7 +113,7 @@ namespace TheBackEndLayer.Services
                     Type = Enums.ReservationType.Normal
                 };
 
-                teeTime.Reservations.Add(reservation);
+                teeTime.Reservations.Add(reservation );
             }
 
             var reservationCount = teeTime.Reservations.Count;
@@ -306,8 +306,8 @@ namespace TheBackEndLayer.Services
         }
         public void AddCurrentUserToReservation(CreateReservationModel model, int memberID)
         {
-            model.PotentialReservations.Add(new ViewModels.Reservations.ReservationCreateModel
-            { MemberID = memberID, Status = Enums.ReservationStatus.Accepted });
+            model.PotentialReservations.Add(new ReservationCreateModel
+            { MemberID = memberID, Status = ReservationStatus.Accepted });
         }
 
         public List<TeeTimeViewModel> FindTeeTimes(FindTeeTimeModel teeTimeFinder)

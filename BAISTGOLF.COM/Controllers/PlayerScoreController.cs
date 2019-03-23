@@ -47,6 +47,7 @@ namespace BaistOnlineGolfingSystem.Controllers
         [HttpPost]
         public ActionResult EnterPlayerScore(CreateInputModel model)
         {
+            model.MemberID = User.Identity.Name;
             if (ModelState.IsValid)
             {
                 var response = _scoreservice.CreatePlayerScore(model, User.Identity.Name);

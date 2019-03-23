@@ -1,0 +1,46 @@
+﻿@model TheBackEndLayer.ViewModels.Applicants.AppReportViewModel
+<div class="col-xs-12 col-sm-12 col-md-10" id="actualList">
+    <table class="table table-bordered table-responsive table-hover">
+        <thead>
+            <tr>
+                <th>Full Name</th>
+                <th>Email</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.FullName</td>
+                    <td>@user.EmailAddress</td>
+                    <td>
+                        @if (user.Status == 1)
+                        {
+                            <span>Applied</span>
+                        }
+                        else if (user.Status == 2)
+                        {
+                            <span>Under Review</span>
+                        }
+                        else if (user.Status == 3)
+                        {
+                            <span>Approved</span>
+                        }
+                        else
+                        {
+                            <span>Rejected</span>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-2">
+    <div class="list-group">
+        @Ajax.ActionLink("Filter By Approved", "ApplicantsApproved", "Reports", null, new AjaxOptions { HttpMethod = "Get", UpdateTargetId = "reportList" }, new { @class = "list-group-item" })
+        @Ajax.ActionLink("Filter By Not Approved", "ApplicantsNotApproved", "Reports", null, new AjaxOptions { HttpMethod = "Get", UpdateTargetId = "reportList" }, new { @class = "list-group-item" })
+    </div>
+</div>
+

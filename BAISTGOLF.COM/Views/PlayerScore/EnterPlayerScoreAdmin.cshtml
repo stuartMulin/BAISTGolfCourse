@@ -19,7 +19,11 @@
 
                 <div class="col-xs-12">
                     @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-
+                    <div class="form-group">
+                        @Html.LabelFor(x => x.ReservationID, new { @class = "control-label" })
+                        @Html.DropDownListFor(x => x.ReservationID, new SelectList(Model.Reservations, "ID", "Date"), new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.ReservationID, null, new { @class = "text-danger" })
+                    </div>
                     <div class="form-group">
                         @Html.LabelFor(x => x.MemberID, new { @class = "control-label" })
                         @Html.TextBoxFor(x => x.MemberID, null, new { @class = "form-control" })

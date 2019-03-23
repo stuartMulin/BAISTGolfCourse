@@ -17,11 +17,13 @@ namespace BAISTGOLF.Controllers
     {
         private readonly IAppService _applicantService;
         private readonly IMemberService _memberService;
+        private readonly IEmployeeService _employeeSerivice;
         public AccountController(IAppService applicantService,
-             IMemberService memberService)
+             IMemberService memberService,IEmployeeService employeeService)
         {
             _applicantService = applicantService;
             _memberService = memberService;
+            _employeeSerivice = employeeService;
         }
 
         [HttpGet]
@@ -98,16 +100,19 @@ namespace BAISTGOLF.Controllers
         [HttpPost]
         public ActionResult Login(LoginInputModel loginModel)
         {
+            
             if (ModelState.IsValid)
             {
                 //Store Remember Me in session for later use
-                var memberVieModel = _memberService.GetMemberByEmail(loginModel.Email);
+                var memberViewModel = _memberService.GetMemberByEmail(loginModel.Email);
 
-                FormsAuthentication.SetAuthCookie(memberVieModel.EmailAddress,
+                
+
+                FormsAuthentication.SetAuthCookie(memberViewModel.EmailAddress,
 
                     loginModel.RememberMe);
                 return RedirectToAction("MemberAccount", "Members",
-                    new { id = memberVieModel.MembershipID });
+                    new { id = memberViewModel.MembershipID });
             }
             else
             {

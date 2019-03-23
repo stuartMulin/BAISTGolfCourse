@@ -24,7 +24,7 @@
                         @Html.DropDownListFor(x => x.ReservationID, new SelectList(Model.Reservations, "ID", "Date"), new { @class = "form-control" })
                         @Html.ValidationMessageFor(x => x.ReservationID, null, new { @class = "text-danger" })
                     </div>
-
+                   
                     <div class="form-group">
                         @Html.LabelFor(x => x.HandicapID, new { @class = "control-label" })
                         @Html.DropDownListFor(x => x.HandicapID, new SelectList(Model.Handicaps, "ID", "Name"), new { @class = "form-control" })
@@ -49,7 +49,6 @@
                     <div class="form-group">
                         <input type="submit" value="SUBMIT" class="btn btn-primary" />
                     </div>
-
                 </div>
             }
         </div>

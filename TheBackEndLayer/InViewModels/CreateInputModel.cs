@@ -21,7 +21,7 @@ namespace TheBackEndLayer.InViewModels
 
         }
 
-        [Required(ErrorMessage = "Required")]
+        //[Required(ErrorMessage = "Required")]
         [Display(Name = "Enter Member ID: ")]
         public string MemberID { get; set; }
 
@@ -42,13 +42,13 @@ namespace TheBackEndLayer.InViewModels
         [Display(Name = "Select Handicap: ")]
         public int HandicapID { get; set; }
 
-        [Required(ErrorMessage = "Required")]
+        //[Required(ErrorMessage = "Required")]
         [Display(Name = "Date Played: ")]
-        public DateTime? DatePlayed { get; set; }
+        public DateTime DatePlayed { get; set; }
 
-        [Required(ErrorMessage = "Required")]
-        [Display(Name = "Select Golf Course: ")]
-        public int GolfCourseID { get; set; }
+        //[Required(ErrorMessage = "Required")]
+        //[Display(Name = "Select Golf Course: ")]
+        //public int GolfCourseID { get; set; }
 
 
         public List<HoleViewModel> Holes { get; set; }

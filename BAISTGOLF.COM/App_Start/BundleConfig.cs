@@ -46,8 +46,14 @@ namespace BAISTGOLF.COM
                       "~/Content/bootstrap-datepicker.css",
                       "~/Content/toastr.min.css",
                       "~/Content/nprogress.css",
+                      "~/Content/fullcalendar.min.css",
                       "~/Content/jquery.steps.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new StyleBundle("~/Content/dataTableCss").Include(
+                      "~/Content/DataTables/css/dataTables.bootstrap.min.css",
+                      "~/Content/DataTables/css/buttons.bootstrap.min.css"));
+            BundleTable.EnableOptimizations = false;
         }
     }
 }

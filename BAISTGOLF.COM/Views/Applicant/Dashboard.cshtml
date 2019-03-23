@@ -1,0 +1,59 @@
+﻿@model TheBackEndLayer.ViewModels.Applicants.ApplicantsViewModel
+@{
+    Layout = "~/Views/Shared/_ApplicantLayout.cshtml";
+    ViewBag.Title = Model.FirstName + " " + Model.LastName;
+}
+
+<div class="col-xs-12">
+    <div class="col-sm-6 col-xs-12 col-md-3 m-t-30">
+        <div class="col-xs-12 user-detail">
+            <div class="row">
+                <img src="~/Content/img/golf-bg2.jpg" class="profile-image" />
+                <div class="col-xs-12">
+
+                    <h3>@Model.FirstName @Model.LastName</h3>
+                    <p><i class="fa fa-user m-r-10"></i> @Model.Gender.ToString()</p>
+                    <p><i class="fa fa-map-marker m-r-10"></i> @Model.Address1</p>
+                    <p><i class="fa fa-building m-r-10"></i> @Model.City , @Model.Province</p>
+                    <p><i class="fa fa-map-signs m-r-10"></i> @Model.PostalCode</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="col-sm-6 col-xs-12 col-md-9 m-t-30">
+        <div class="col-xs-12 user-detail-more">
+            <h2 class="center-block text-center m-t-110">
+                Your Application Status is:
+                @if (Model.Status == TheBackEndLayer.Enums.ApplicantStatus.Initiated)
+                {
+                    <br />
+                    <span style="color: #0094ff">Initiated</span>
+                    <br />
+                    <small>
+                        Your application is not yet under review by the clerk. Very soon,
+                        a clerk will open your file for review. Thanks for your patience.
+                    </small>
+                }
+                @if (Model.Status == TheBackEndLayer.Enums.ApplicantStatus.UnderReview)
+                {
+                    <span style="color: #0094ff">Under Review</span>
+                    <small>
+                        Your application is under review by the clerk and a decision will be
+                        made soon, you will receive an email with the final decision. Thanks for your patience.
+                    </small>
+                }
+                @if (Model.Status == TheBackEndLayer.Enums.ApplicantStatus.Rejected)
+                {
+                    <span style="color: #0094ff">Rejected</span>
+                    <small>
+                        You have not met some of our requirements and based on this, we have
+                        rejected your application. Please feel free to contact us at
+                        1-888-333-5678 to go over the failed requirements. Thanks
+                    </small>
+                }
+            </h2>
+        </div>
+    </div>
+</div>
+

@@ -68,7 +68,7 @@ $(function () {
                     },
                     success: function (response) {
                         toastr.success('Reservation Created!', 'Success');
-                        window.location.href = '/reservations/list';
+                        window.location.href = '/reservation/list';
                     }
                 });
             }

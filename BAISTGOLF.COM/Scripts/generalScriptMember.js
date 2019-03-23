@@ -105,5 +105,5 @@ function createReservation() {
 
 function reservationList()
 {
-    window.location.href = 'reservations/list'
+    window.location.href = '/reservations/list';
 }
