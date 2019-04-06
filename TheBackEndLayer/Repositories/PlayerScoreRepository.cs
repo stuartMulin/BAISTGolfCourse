@@ -16,13 +16,13 @@ namespace TheBackEndLayer.Repositories
         public PlayerScoreRepository(DbContext context) : base(context)
         {
         }
-       
+
         public List<PlayerScores> GetAllPlayerScores()
         {
             return DbSet
-                .Include(x => x.Member)
-                .Include(x => x.Handicap)
-                .OrderBy(x => x.Member.FirstName).ToList();
+                 .Include(x => x.Member)
+                 .Include(x => x.Handicap)
+                 .OrderBy(x => x.Member.FirstName).ToList();
         }
 
         public List<PlayerScores> GetPlayerScores(int memberId)

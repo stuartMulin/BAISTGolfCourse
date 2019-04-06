@@ -1,0 +1,81 @@
+﻿@model IEnumerable<TheBackEndLayer.ViewModels.Reservation.ReservViewModels>
+
+@{
+    ViewBag.Title = "Reservations";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Manage Reservations</h2>
+
+<p style="margin-top: 15px">
+    @Html.ActionLink("Create New", "Create", null, new { @class="btn btn-primary" })
+</p>
+
+
+@if (Model != null)
+{
+    <table class="table">
+        <tr>
+           
+            <th>
+                @Html.DisplayNameFor(model => model.MemberFullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TeeTimeID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TeeTimeStartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TeeTimeEndDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateCreated)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GolfCourse)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MemberFullName)
+            </td>
+           
+            <td>
+                @Html.DisplayFor(modelItem => item.TeeTimeID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TeeTimeStartDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TeeTimeEndDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateCreated)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GolfCourse)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+            </td>
+        </tr>
+        }
+
+    </table>
+} else
+{
+    <span>There are no reservations yet...</span>
+}

@@ -74,9 +74,20 @@ namespace BAISTGOLF.Controllers
         }
 
         [HttpGet]
+        //Returns list of Reservations
         public ActionResult List()
         {
-            return View();
+            var reservations = _reservationService.GetMemberReservations(User.Identity.Name);
+            System.Collections.Generic.List<ReservViewModels> models = reservations.Select(s => new ReservViewModels
+            {
+                MemberFullName = s.MemberFullName,
+                TeeTimeStartDate = s.TeeTimeStartDate,
+                TeeTimeEndDate = s.TeeTimeEndDate,
+                ID = s.ID,
+                GolfCourse = s.GolfCourse
+            }).ToList();
+
+            return View(models);
         }
 
         [HttpGet]
@@ -89,7 +100,7 @@ namespace BAISTGOLF.Controllers
         [HttpGet]
         public ActionResult GetList()
         {
-            var reservations = _reservationService.GetReservations(User.Identity.Name);
+            var reservations = _reservationService.GetMemberReservations(User.Identity.Name);
 
             var reservationsCalendar = reservations.Select(x => new
             {
@@ -97,8 +108,26 @@ namespace BAISTGOLF.Controllers
                 title =
                 "Reservation For " + x.MemberFullName,
                 start = x.TeeTimeStartDate.ToString("s"),
+                end = x.TeeTimeEndDate.ToString("s"),
+                allDay = false,
+                GCourse = x.GolfCourse
+            });
+            return Json(reservationsCalendar, JsonRequestBehavior.AllowGet);
+        }
+
+        [HttpGet]
+        public ActionResult GetMemberReservations()
+        {
+            var reservations = _reservationService.GetMemberReservations(User.Identity.Name);
+
+            var reservationsCalendar = reservations.Select(x => new
+            {
+                id = x.TeeTimeID,
+                title = "Reservation For " + x.MemberFullName,
+                start = x.TeeTimeStartDate.ToString("s"),
                 end = x.TeeTimeStartDate.ToString("s"),
-                allDay = false
+                allDay = false,
+                GolfCourse = x.GolfCourse
             });
             return Json(reservationsCalendar, JsonRequestBehavior.AllowGet);
         }

@@ -17,6 +17,7 @@ namespace TheBackEndLayer.Services
         bool CreateReservation(CreateReserveInputModel inputModel, string currentMemberID);
         MembersViewModel AddMemberToReservation(string memberID, int teeTimeID, string currentMemberID);
         List<ReservViewModels> GetReservations(string email);
+        List<ReservViewModels> GetMemberReservations(string email);
         void CreateNormalReservation(CreateReservationModel inputModel, int iD);
   
     }

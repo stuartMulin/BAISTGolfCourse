@@ -97,8 +97,8 @@ namespace TheBackEndLayer.Services
             var Golfcourse = _golfCourseRepository.FindBy(x => x.CourseName.Contains(
                 "BAIST")).FirstOrDefault();
 
-            createInputModel.Holes = holes.Select
-             (x => (new HoleViewModel { ID = x.ID, Name = x.Name })).ToList();
+            createInputModel.HoleEntries = holes.Select
+             (x => (new HoleEntryViewModel { HoleID = x.ID, HoleName = x.Name, Score = 0 })).ToList();
 
             createInputModel.Handicaps = handicaps.Select
              (x => (new HandicapViewModel { ID = x.Id, Name = x.Name })).ToList();
@@ -224,15 +224,15 @@ namespace TheBackEndLayer.Services
                         }
                     }
 
-                    //Year Scores
-                    var yearScore = allMemberScores.Where(x => x.DatePlayed.Year
-                    == DateTime.Now.Year).ToList();
+                    ////Year Scores
+                    //var yearScore = allMemberScores.Where(x => x.DatePlayed.Year
+                    //== DateTime.Now.Year).ToList();
 
-                    if (yearScore.Count > 0)
-                    {
-                        weeklyScoreReport.Years.Add(DateTime.Now.Year.ToString());
-                        weeklyScoreReport.YearAverageScores.Add(yearScore.Select(x => x.Score).Sum() / yearScore.Count);
-                    }
+                    //if (yearScore.Count > 0)
+                    //{
+                    //    weeklyScoreReport.Years.Add(DateTime.Now.Year.ToString());
+                    //    weeklyScoreReport.YearAverageScores.Add(yearScore.Select(x => x.Score).Sum() / yearScore.Count);
+                    //}
 
                 }
 

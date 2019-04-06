@@ -1,0 +1,60 @@
+﻿@model List<TheBackEndLayer.ViewModels.Reservation.TeeTimeViewModel>
+
+
+@if (Model.Count == 0)
+{
+    <span>No Tee Time Available For The Selected Date</span>
+}
+else
+{
+    <div class="tee-time-list">
+        <table class="table table-bordered table-responsive table-striped">
+            <tr>
+                <th>
+                    Start Date
+                </th>
+                <th>
+                    End Date
+                </th>
+                <th>
+                    Status
+                </th>
+                <th>
+                    GolfCourseName
+                </th>
+                <th>
+                    Number Of Reservations
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var teeTime in Model)
+            {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => teeTime.StartDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => teeTime.EndDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => teeTime.Status)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => teeTime.GolfCourseName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => teeTime.ReservationCount)
+                </td>
+                <td>
+                    <button class="btn btn-success" onclick="selectTeeTime(@teeTime.ID, '@teeTime.StartDate.ToShortDateString()',
+               '@teeTime.StartDate.ToShortTimeString()', '@teeTime.EndDate.ToShortDateString()', 
+                            '@teeTime.EndDate.ToShortTimeString()', @teeTime.ReservationCount)">Select</button>
+                </td>
+            </tr>
+            }
+
+        </table>
+    </div>
+}
+

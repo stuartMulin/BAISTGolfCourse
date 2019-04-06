@@ -109,9 +109,9 @@ namespace TheBackEndLayer
             database.GolfCourses.AddOrUpdate(p => p.ID, golfClub2);
 
             database.SaveChanges();
-
-            var validStartTeeTime = new DateTime(DateTime.Now.Year, DateTime.Now.Month,
-                DateTime.Now.Day + 1, 10, 0, 0);
+            DateTime now = DateTime.Now;
+            var validStartTeeTime = new DateTime(now.Year, /*DateTime.*/now.Month,
+               /* DateTime*/now.Day + 1, 10, 0, 0);
 
             var teeTime = new TeeTime
             {

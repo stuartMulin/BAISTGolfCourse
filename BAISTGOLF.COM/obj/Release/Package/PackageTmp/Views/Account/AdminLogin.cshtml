@@ -1,0 +1,37 @@
+﻿@model TheBackEndLayer.ViewModels.Login.LoginInputModel
+@{
+    ViewBag.Title = "AdminLogin";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row bg-home">
+    <div class="col-md-offset-3 col-md-6 col-xs-12 col-sm-12 sign-up-div">
+        @using (Html.BeginForm("LoginAsAdmin", "Account", FormMethod.Post))
+        {
+            @Html.ValidationSummary(true, "", new { @class = "has-error" })
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+                <div class="form-horizontal">
+                    <h3>Admin Login</h3>
+                    <div class="form-group required">
+                        @Html.LabelFor(x => x.Email, new { @class = "control-label" })
+                        @Html.TextBoxFor(x => x.Email, null, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.Email, null, new { @class = "text-danger" })
+                    </div>
+                    <div class="form-group required">
+                        @Html.LabelFor(x => x.Password, new { @class = "control-label" })
+                        @Html.PasswordFor(x => x.Password, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.Password, null, new { @class = "text-danger" })
+                    </div>
+                    <div class="form-group">
+                        <label>@Html.CheckBoxFor(x => x.RememberMe) Keep me signed in</label>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-spacious">SIGN IN</button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+

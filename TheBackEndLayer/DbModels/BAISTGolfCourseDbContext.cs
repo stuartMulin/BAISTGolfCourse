@@ -48,5 +48,6 @@ namespace TheBackEndLayer.DbModels
             modelBuilder.Configurations.Add(new HandicapMap());
         }
 
+        public System.Data.Entity.DbSet<TheBackEndLayer.ViewModels.Scores.PlayerScoreViewModel> PlayerScoreViewModels { get; set; }
     }
 }

@@ -1,0 +1,54 @@
+﻿
+@model List<TheBackEndLayer.ViewModels.Reservation.ReservViewModels>
+@{
+    ViewBag.Title = "Your Reservations";
+    Layout = "~/Views/Shared/_MemberLayout.cshtml";
+
+}
+
+<ol class="breadcrumb">
+    <li><a href="/">Home</a></li>
+    <li><a href="/reservation">Reservation Manager</a></li>
+    <li class="active">Reservation</li>
+</ol>
+<h3>Your Upcoming Reservations</h3>
+<hr />
+<div id="calendar"></div>
+
+
+<table id="reservations">
+    
+    <thead>
+        <tr>
+            <td>
+            </td>
+            <th>Id</th>
+            <th>Member Name</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Golf Course</th>
+        </tr>
+    </thead>
+    <tbody id="bodyData"></tbody>
+</table>
+
+<script type="text/javascript">
+    $(function () {
+        var finalData = '';
+        
+        $.get('/reservation/getlist', function (data) {
+            finalData = data;
+            console.log(data.length)
+        }).done(function () {
+            jQuery.each(finalData, function (i, val) {
+                var tmp = '';
+                tmp = tmp + '<tr><td>' + val.id + '</td>';
+                tmp = tmp + '<td>' + val.title + '</td>';
+                tmp = tmp + '<td>' + val.start + '</td>';
+                tmp = tmp + '<td>' + val.end + '</td>';
+                tmp = tmp + '<td>' + val.GolfCourse + '</td></tr>';
+                $('#reservations').append(tmp);
+            });
+        });
+    });
+</script>

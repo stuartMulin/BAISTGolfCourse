@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TheBackEndLayer.DbModels;
 using TheBackEndLayer.ViewModels.Members;
+using TheBackEndLayer.ViewModels.Reservation;
 
 namespace TheBackEndLayer.Repositories
 {
@@ -16,6 +17,7 @@ namespace TheBackEndLayer.Repositories
         Reservations GetWithGolfCourse(int id);
         List<Reservations> GetNormalListForMember(int memberID);
         List<Reservations> GetListForMember(int memberID);
+        List<ReservViewModels> GetMemberReservations(int memberID);
     }
 
 }

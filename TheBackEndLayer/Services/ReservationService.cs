@@ -304,6 +304,20 @@ namespace TheBackEndLayer.Services
 
             return reservationViewModels;
         }
+        //public List<ReservViewModels> GetMemberReservations(string email)
+        //{
+        //    throw new NotImplementedException();
+        //}
+        public List<ReservViewModels> GetMemberReservations(string email) {
+            var member = _memberRepository.FindBy(x => x.EmailAddress == email).SingleOrDefault();
+
+            var reservations = _reservationRepository.GetListForMember(member.ID);
+            var reservationViewModels = _autoMapper.
+                Map<List<ReservViewModels>>(reservations);
+
+            return reservationViewModels;
+        }
+
         public void AddCurrentUserToReservation(CreateReservationModel model, int memberID)
         {
             model.PotentialReservations.Add(new ReservationCreateModel
@@ -328,6 +342,8 @@ namespace TheBackEndLayer.Services
 
             return teeTimesViewModel.ToList();
         }
+
+        
 
         //public bool CreateReservation(CreateReserveInputModel inputModel, string currentMemberID)
         //{

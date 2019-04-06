@@ -25,7 +25,7 @@ namespace TheBackEndLayer.ViewModels.Scores
             [Required(ErrorMessage = "Required")]
             [Display(Name = "Select Reservation: ")]
             public int ReservationID { get; set; }
-
+            public int ID { get; set; }
             [Required(ErrorMessage = "Required")]
             [Display(Name = "Select Hole: ")]
             public int HoleID { get; set; }

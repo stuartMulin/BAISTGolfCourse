@@ -205,5 +205,8 @@ D:\Projects\BAISTGolfCourse\TheBackEndLayer\obj\Debug\TheBackEndLayer.csproj.Cor
 D:\Projects\BAISTGolfCourse\TheBackEndLayer\obj\Debug\TheBackEndLayer.csproj.CopyComplete
 D:\Projects\BAISTGolfCourse\TheBackEndLayer\obj\Debug\TheBackEndLayer.dll
 D:\Projects\BAISTGolfCourse\TheBackEndLayer\obj\Debug\TheBackEndLayer.pdb
-C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.csprojResolveAssemblyReference.cache
 C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.Migrations.AddMembershipStatus.resources
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.csprojAssemblyReference.cache
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.csproj.CoreCompileInputs.cache
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.csproj.CopyComplete
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\TheBackEndLayer\obj\Debug\TheBackEndLayer.Migrations.InitialMigration1.resources

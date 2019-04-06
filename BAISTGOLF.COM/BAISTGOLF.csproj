@@ -289,10 +289,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201902212342136_BAISTGolfCourseDbContext.cs" />
-    <Compile Include="Migrations\201902212342136_BAISTGolfCourseDbContext.Designer.cs">
-      <DependentUpon>201902212342136_BAISTGolfCourseDbContext.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -516,6 +512,7 @@
     <Content Include="Content\DataTables\css\semanticui.scss" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
+    <None Include="Properties\PublishProfiles\BAISTGOLF20190406125404 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -577,7 +574,7 @@
     <Content Include="Scripts\umd\popper.js.map" />
     <Content Include="Scripts\umd\popper-utils.min.js.map" />
     <Content Include="Scripts\umd\popper-utils.js.map" />
-    <Content Include="Views\PlayerScore\EnterPlayerScore.cshtml" />
+    <Content Include="Views\PlayerScore\EnterPlayerScores.cshtml" />
     <Content Include="Views\PlayerScore\Index.cshtml" />
     <Content Include="Views\Account\LoginAsMember.cshtml" />
     <Content Include="Views\Reservation\Details.cshtml" />
@@ -589,7 +586,7 @@
     <Content Include="Views\Reports\Scores.cshtml" />
     <Content Include="Views\Admin\Index.cshtml" />
     <Content Include="Views\Reservation\EnterTeeTime.cshtml" />
-    <Content Include="Views\Reservation\List.cshtml" />
+    <Content Include="Views\Reservation\Lists.cshtml" />
     <Content Include="Views\Shared\Employee.cshtml" />
     <Content Include="Views\admintasks\Requests.cshtml" />
     <Content Include="Views\Applicant\Dashboard.cshtml" />
@@ -597,6 +594,11 @@
     <Content Include="Views\admintasks\Application.cshtml" />
     <Content Include="Views\Reports\ApplicantReportViewModel.cshtml" />
     <Content Include="Views\Reservation\GetList.cshtml" />
+    <Content Include="Views\Reservation\NewListReservations.cshtml" />
+    <Content Include="Views\Reservation\List.cshtml" />
+    <Content Include="Views\PlayerScore\GetPlayerScore.cshtml" />
+    <Content Include="Views\PlayerScore\EnterPlayerScore.cshtml" />
+    <Content Include="Views\PlayerScore\EnterPlayerScoresAdmin.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -616,11 +618,6 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201902212342136_BAISTGolfCourseDbContext.resx">
-      <DependentUpon>201902212342136_BAISTGolfCourseDbContext.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
