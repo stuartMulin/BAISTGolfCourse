@@ -12,66 +12,70 @@
 }
 <div class="col-md-10 m-t-25 no-padding">
     <div class="panel panel-primary">
-        <div class="panel-heading">Enter Your Score</div>
+        <div class="panel-heading">Enter Player Score</div>
         <div class="panel-body">
             @using (Ajax.BeginForm("EnterPlayerScoreAdmin", null, ajaxOptions, new { @class = "form-horizontal" }))
             {
 
-                <div class="col-xs-12">
-                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-                    <div class="form-group">
-                        @Html.LabelFor(x => x.MemberID, new { @class = "control-label" })
-                        @Html.TextBoxFor(x => x.MemberID, null, new { @class = "form-control" })
-                        @Html.ValidationMessageFor(x => x.MemberID, null, new { @class = "text-danger" })
-                    </div>
-                    <div class="form-group">
-                        @Html.LabelFor(x => x.ReservationID, new { @class = "control-label" })
-                        @Html.DropDownListFor(x => x.ReservationID, new SelectList(Model.Reservations, "ID", "Date"), new { @class = "form-control" })
-                        @Html.ValidationMessageFor(x => x.ReservationID, null, new { @class = "text-danger" })
-                    </div>
-                    <div class="form-group">
-                        @Html.LabelFor(x => x.HandicapID, new { @class = "control-label" })
-                        @Html.DropDownListFor(x => x.HandicapID, new SelectList(Model.Handicaps, "ID", "Name"), new { @class = "form-control" })
-                        @Html.ValidationMessageFor(x => x.HandicapID, null, new { @class = "text-danger" })
-                    </div>
-                    <div class="form-group">
-                        <table class="table table-bordered table-responsive table-hover">
-                            <thead>
-                                <tr>
-                                    <th>Hole Name</th>
-                                    <th>Score</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                @foreach (var entry in Model.HoleEntries)
-                                {
-                                    <tr>
-                                        <td>@entry.HoleName</td>
-                                        <td><input type="number" class="form-control" value="@entry.Score" /></td>
-                                    </tr>
-                                }
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="form-group">
-                        @Html.LabelFor(x => x.DatePlayed, new { @class = "control-label" })
-                        @Html.TextBoxFor(x => x.DatePlayed, null, new { @class = "form-control", id = "datePlayed" })
-                        @Html.ValidationMessageFor(x => x.DatePlayed, null, new { @class = "text-danger" })
-                    </div>
-                    <div class="form-group">
-                        @Html.LabelFor(x => x.Score, new { @class = "control-label" })
-                        @Html.TextBoxFor(x => x.Score, null, new { @class = "form-control" })
-                        @Html.ValidationMessageFor(x => x.Score, null, new { @class = "text-danger" })
-                    </div>
-                    @Html.HiddenFor(x => x.ReservationID)
-                    <div class="form-group">
-                        <input type="submit" value="SUBMIT" class="btn btn-primary" />
-                    </div>
-
+            <div class="col-xs-12">
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="form-group">
+                    @Html.LabelFor(x => x.MemberID, new { @class = "control-label" })
+                    @Html.TextBoxFor(x => x.MemberID, null, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.MemberID, null, new { @class = "text-danger" })
                 </div>
+                <div class="form-group">
+                    @Html.LabelFor(x => x.ReservationID, new { @class = "control-label" })
+                    @Html.DropDownListFor(x => x.ReservationID, new SelectList(Model.Reservations, "ID", "Date"), new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.ReservationID, null, new { @class = "text-danger" })
+                </div>
+                @*<div class="form-group">
+            @Html.LabelFor(x => x.HandicapID, new { @class = "control-label" })
+            @Html.DropDownListFor(x => x.HandicapID, new SelectList(Model.Handicaps, "ID", "Name"), new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.HandicapID, null, new { @class = "text-danger" })
+        </div>*@
+                <div class="form-group">
+                    <table class="table table-bordered table-responsive table-hover">
+                        <thead>
+                            <tr>
+                                <th>Hole Name</th>
+                                <th>Score</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var entry in Model.HoleEntries)
+                            {
+                                <tr>
+                                    <td>@entry.HoleName</td>
+                                    <td><input type="number" class="form-control" value="@entry.Score" /></td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(x => x.DatePlayed, new { @class = "control-label" })
+                    @Html.TextBoxFor(x => x.DatePlayed, null, new { @class = "form-control", id = "datePlayed" })
+                    @Html.ValidationMessageFor(x => x.DatePlayed, null, new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(x => x.Rating, new { @class = "control-label" })
+                    @Html.TextBoxFor(x => x.Rating, null, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.Score, null, new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(x => x.Slope, new { @class = "control-label" })
+                    @Html.TextBoxFor(x => x.Slope, null, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.Score, null, new { @class = "text-danger" })
+                </div>
+               
+                @Html.HiddenFor(x => x.ReservationID)
+                <div class="form-group">
+                    <input type="submit" value="SUBMIT" class="btn btn-primary" />
+                </div>
+
+            </div>
             }
         </div>
     </div>
-
-
 </div>

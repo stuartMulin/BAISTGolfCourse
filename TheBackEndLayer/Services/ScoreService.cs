@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using BAISTGOLF.InViewModels;
 using System.Linq;
+using System.Data.Entity;
 using System.Data;
 using System.Text;
 using System.Threading.Tasks;
@@ -55,7 +56,8 @@ namespace TheBackEndLayer.Services
 
             createInputModel.Holes = holes.Select
              (x => (new HoleViewModel { ID = x.ID, Name = x.Name })).ToList();
-
+            createInputModel.HoleEntry = holes.Select
+          (x => new HoleEntryViewModels { HoleID = x.ID, HoleName = x.Name, Score = 0 }).ToList();
 
             createInputModel.Handicaps = handicap.Select
              (x => (new HandicapViewModel { ID = x.Id, Name = x.Name })).ToList();
@@ -99,6 +101,7 @@ namespace TheBackEndLayer.Services
 
             createInputModel.HoleEntries = holes.Select
              (x => (new HoleEntryViewModel { HoleID = x.ID, HoleName = x.Name, Score = 0 })).ToList();
+          
 
             createInputModel.Handicaps = handicaps.Select
              (x => (new HandicapViewModel { ID = x.Id, Name = x.Name })).ToList();
@@ -116,7 +119,9 @@ namespace TheBackEndLayer.Services
 
             var golfCourse = reservation.TeeTime.GolfCourse;
 
-            var calculatedScore = model.Score - golfCourse.Rating / golfCourse.Slope * 113;
+            var calculatedScore = model.Score - (golfCourse.Rating / golfCourse.Slope * 113);
+            
+
             
             
             

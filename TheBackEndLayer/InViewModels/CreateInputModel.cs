@@ -15,6 +15,7 @@ namespace TheBackEndLayer.InViewModels
         public CreateInputModel()
 
         {
+            HoleEntry = new List<HoleEntryViewModels>();
             Holes = new List<HoleViewModel>();
             Handicaps = new List<HandicapViewModel>();
             Reservations = new List<ReservationScoreViewModel>();
@@ -50,9 +51,13 @@ namespace TheBackEndLayer.InViewModels
         //[Display(Name = "Select Golf Course: ")]
         //public int GolfCourseID { get; set; }
 
+        public float Rating { get; set; }
+        public float Slope { get; set; }
 
         public List<HoleViewModel> Holes { get; set; }
         public List<HandicapViewModel> Handicaps { get; set; }
+        public List<HoleEntryViewModels> HoleEntry { get; set; }
+       
         public List<ReservationScoreViewModel> Reservations { get; set; }
     }
 
@@ -81,4 +86,11 @@ namespace TheBackEndLayer.InViewModels
         public DateTime YearFounded { get; set; }
         public string City { get; set; }
     }
+    public class HoleEntryViewModels
+    {
+        public int HoleID { get; set; }
+        public string HoleName { get; set; }
+        public int Score { get; set; }
+    }
+
 }

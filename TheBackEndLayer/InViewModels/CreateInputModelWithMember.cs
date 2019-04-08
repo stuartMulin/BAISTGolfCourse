@@ -12,6 +12,7 @@ namespace TheBackEndLayer.InViewModels
         {
             HoleEntries = new List<HoleEntryViewModel>();
             Handicaps = new List<HandicapViewModel>();
+      
             Reservations = new List<ReservationScoreViewModel>();
 
         }
@@ -32,6 +33,8 @@ namespace TheBackEndLayer.InViewModels
         [Required(ErrorMessage = "Required")]
         [Display(Name = "Select Hole: ")]
         public int HoleID { get; set; }
+        public float Rating { get; set; }
+        public float Slope { get; set; }
 
         [Required(ErrorMessage = "Required")]
         [Display(Name = "Select Handicap: ")]

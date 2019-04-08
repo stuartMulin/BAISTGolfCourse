@@ -28,6 +28,8 @@
     </NuGetPackageImportStamp>
     <TypeScriptToolsVersion>3.2</TypeScriptToolsVersion>
     <Use64BitIISExpress />
+    <ApplicationInsightsResourceId>/subscriptions/6a8837a5-5d8d-40b6-9be7-af76156e52bf/resourcegroups/Default-ApplicationInsights-EastUS/providers/microsoft.insights/components/BAISTGOLF</ApplicationInsightsResourceId>
+    <ApplicationInsightsAnnotationResourceId>/subscriptions/6a8837a5-5d8d-40b6-9be7-af76156e52bf/resourcegroups/Default-ApplicationInsights-EastUS/providers/microsoft.insights/components/BAISTGOLF</ApplicationInsightsAnnotationResourceId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -286,6 +288,7 @@
     <Compile Include="Controllers\ReportsController.cs" />
     <Compile Include="Controllers\ReservationController.cs" />
     <Compile Include="Controllers\TeeTimeController.cs" />
+    <Compile Include="ErrorHandler\AiHandleErrorAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -599,6 +602,7 @@
     <Content Include="Views\PlayerScore\GetPlayerScore.cshtml" />
     <Content Include="Views\PlayerScore\EnterPlayerScore.cshtml" />
     <Content Include="Views\PlayerScore\EnterPlayerScoresAdmin.cshtml" />
+    <Content Include="Service References\Application Insights\ConnectedService.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
