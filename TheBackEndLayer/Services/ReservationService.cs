@@ -113,7 +113,7 @@ namespace TheBackEndLayer.Services
                     Type = Enums.ReservationType.Normal
                 };
 
-                teeTime.Reservations.Add(reservation);
+                teeTime.Reservations.Add(reservation );
             }
 
             var reservationCount = teeTime.Reservations.Count;
@@ -304,10 +304,24 @@ namespace TheBackEndLayer.Services
 
             return reservationViewModels;
         }
+        //public List<ReservViewModels> GetMemberReservations(string email)
+        //{
+        //    throw new NotImplementedException();
+        //}
+        public List<ReservViewModels> GetMemberReservations(string email) {
+            var member = _memberRepository.FindBy(x => x.EmailAddress == email).SingleOrDefault();
+
+            var reservations = _reservationRepository.GetListForMember(member.ID);
+            var reservationViewModels = _autoMapper.
+                Map<List<ReservViewModels>>(reservations);
+
+            return reservationViewModels;
+        }
+
         public void AddCurrentUserToReservation(CreateReservationModel model, int memberID)
         {
-            model.PotentialReservations.Add(new ViewModels.Reservations.ReservationCreateModel
-            { MemberID = memberID, Status = Enums.ReservationStatus.Accepted });
+            model.PotentialReservations.Add(new ReservationCreateModel
+            { MemberID = memberID, Status = ReservationStatus.Accepted });
         }
 
         public List<TeeTimeViewModel> FindTeeTimes(FindTeeTimeModel teeTimeFinder)
@@ -328,6 +342,8 @@ namespace TheBackEndLayer.Services
 
             return teeTimesViewModel.ToList();
         }
+
+        
 
         //public bool CreateReservation(CreateReserveInputModel inputModel, string currentMemberID)
         //{

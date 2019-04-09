@@ -22,5 +22,15 @@ namespace BAISTGOLF.Controllers
 
         }
      
+        public ActionResult GetListBySearchDate(string searchDate)
+        {
+            var searchDateObject = Convert.ToDateTime(searchDate);
+            var teeTimeList = _teeTimeService.GetListBySearchDate(searchDateObject);
+            return PartialView(teeTimeList);
+                
     }
+
+    }
+            
+
 }

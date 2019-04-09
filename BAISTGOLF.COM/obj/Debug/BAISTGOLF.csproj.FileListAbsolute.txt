@@ -420,9 +420,6 @@ C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.CO
 C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.csproj.App.config
-C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.csprojResolveAssemblyReference.cache
-C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.COM.Migrations.BAISTGolfCourseDbContext.resources
-C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.csproj.GenerateResource.Cache
 C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.COM.dll
 C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.COM.pdb
 C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\Microsoft.AspNet.SignalR.Core.dll
@@ -566,3 +563,7 @@ D:\Projects\BAISTGolfCourse\BAISTGOLF.COM\obj\Debug\BAISTGOLF.csproj.CoreCompile
 D:\Projects\BAISTGolfCourse\BAISTGOLF.COM\obj\Debug\BAISTGOLF.csproj.CopyComplete
 D:\Projects\BAISTGolfCourse\BAISTGOLF.COM\obj\Debug\BAISTGOLF.COM.dll
 D:\Projects\BAISTGolfCourse\BAISTGOLF.COM\obj\Debug\BAISTGOLF.COM.pdb
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\bin\TheBackEndLayer.dll.config
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.csprojAssemblyReference.cache
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.csproj.CoreCompileInputs.cache
+C:\Users\Stuart\Documents\Visual Studio 2015\Projects\BAISTGOLF.COM\BAISTGOLF.COM\obj\Debug\BAISTGOLF.csproj.CopyComplete

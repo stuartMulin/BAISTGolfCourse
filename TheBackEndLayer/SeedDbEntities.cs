@@ -47,7 +47,8 @@ namespace TheBackEndLayer
                 City = "Toronto",
                 Province = "Ontario",
                 PostalCode = "T6W 1N3",
-                MembershipID = "123456A"
+                MembershipID = "123456A",
+                MembershipType = Enums.MembershipStatus.Gold
             };
 
 
@@ -68,7 +69,8 @@ namespace TheBackEndLayer
                     City = "Toronto",
                     Province = "Ontario",
                     PostalCode = "T6W 1N3",
-                    MembershipID = "12356A" + i
+                    MembershipType = Enums.MembershipStatus.Gold,
+                    MembershipID = "12356A" + i,
                 };
 
                 memberCreate.PasswordSalt = PasswordEncryptor.CreateSalt(5);
@@ -107,23 +109,23 @@ namespace TheBackEndLayer
             database.GolfCourses.AddOrUpdate(p => p.ID, golfClub2);
 
             database.SaveChanges();
-
-            var validStartTeeTime = new DateTime(DateTime.Now.Year, DateTime.Now.Month,
-                DateTime.Now.Day + 1, 10, 0, 0);
+            DateTime now = DateTime.Now;
+            var validStartTeeTime = new DateTime(now.Year, /*DateTime.*/now.Month,
+               /* DateTime*/now.Day + 1, 10, 0, 0);
 
             var teeTime = new TeeTime
             {
                 DateCreated = DateTime.Now,
                 StartDate = validStartTeeTime,
-                EndDate = validStartTeeTime.AddHours(2),
+                EndDate = validStartTeeTime.AddMinutes(7),
                 Status = Enums.TeeTimeStatus.Open,
                 GolfCourseID = golfClub.ID
             };
             var teeTimeTwo = new TeeTime
             {
                 DateCreated = DateTime.Now,
-                StartDate = validStartTeeTime,
-                EndDate = validStartTeeTime.AddHours(2),
+                StartDate = validStartTeeTime.AddMinutes(14),
+                EndDate = validStartTeeTime.AddMinutes(21),
                 Status = Enums.TeeTimeStatus.Open,
                 GolfCourseID = golfClub2.ID
             };
@@ -131,8 +133,8 @@ namespace TheBackEndLayer
             var teeTime3 = new TeeTime
             {
                 DateCreated = DateTime.Now,
-                StartDate = validStartTeeTime.AddHours(2),
-                EndDate = validStartTeeTime.AddHours(4),
+                StartDate = validStartTeeTime.AddMinutes(28),
+                EndDate = validStartTeeTime.AddMinutes(35),
                 Status = Enums.TeeTimeStatus.Open,
                 GolfCourseID = golfClub.ID
             };
@@ -141,8 +143,8 @@ namespace TheBackEndLayer
             var teeTime4 = new TeeTime
             {
                 DateCreated = DateTime.Now,
-                StartDate = validStartTeeTime.AddHours(2),
-                EndDate = validStartTeeTime.AddHours(4),
+                StartDate = validStartTeeTime.AddMinutes(42),
+                EndDate = validStartTeeTime.AddMinutes(49),
                 Status = Enums.TeeTimeStatus.Open,
                 GolfCourseID = golfClub2.ID
             };
@@ -150,8 +152,8 @@ namespace TheBackEndLayer
             var teeTime5 = new TeeTime
             {
                 DateCreated = DateTime.Now,
-                StartDate = validStartTeeTime.AddHours(4),
-                EndDate = validStartTeeTime.AddHours(6),
+                StartDate = validStartTeeTime.AddMinutes(56),
+                EndDate = validStartTeeTime.AddMinutes(63),
                 Status = Enums.TeeTimeStatus.Open,
                 GolfCourseID = golfClub.ID
             };

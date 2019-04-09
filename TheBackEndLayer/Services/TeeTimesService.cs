@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Data.Entity;
 using System.Threading.Tasks;
 using TheBackEndLayer.Helpers;
 using TheBackEndLayer.Repositories;
@@ -42,31 +43,34 @@ namespace TheBackEndLayer.Services
 
             return teeTimeViewModel;
         }
+
+        public List<TeeTimeViewModel> GetListBySearchDate(DateTime searchDate)
+        {
+            using (var db = new DbModels.BAISTGolfCourseDbContext())
+            {
+                var startingBusinessTime = new DateTime(DateTime.Now.Year, searchDate.Month, searchDate.Day, 9, 0, 0);
+                var closingBusinessTime = new DateTime(DateTime.Now.Year, searchDate.Month, searchDate.Day, 17, 0, 0);
+
+                var teeTimes = db.TeeTime
+                    .Include(x => x.GolfCourse)
+                    .Include(x => x.Reservations)
+                    .Where(x => (x.StartDate > searchDate &&
+                            x.EndDate < closingBusinessTime) && x.Status ==
+                            Enums.TeeTimeStatus.Open && x.Reservations.Count < 4).ToList();
+
+                var teeTimesViewModel = teeTimes.Select(x => new TeeTimeViewModel
+                {
+                    ID = x.Id,
+                    StartDate = x.StartDate,
+                    EndDate = x.EndDate,
+                    Status = x.Status,
+                    GolfCourseName = x.GolfCourse.CourseName,
+                    ReservationCount = x.Reservations.Count
+                }).ToList();
+
+                return teeTimesViewModel;
+            }
+        }
     }
-    //public List<TeeTimeViewModel> GetTeeTimesByDate(DateTime searchDate)
-    //{
-    //    using (var db = new DbModels.BAISTGolfCourseDbContext())
-    //    {
-    //        var closingBusinessTime = new DateTime(DateTime.Now.Year, searchDate.Month, searchDate.Day, 17, 0, 0);
-
-    //        var teeTimes = db.TeeTime
-    //            .Include(x => x.GolfCourse)
-    //            .Include(x => x.Reservations)
-    //            .Where(x => (x.StartDate > searchDate &&
-    //                    x.EndDate < closingBusinessTime) && x.Status ==
-    //                    Enums.TeeTimeStatus.Open && x.Reservations.Count < 4).ToList();
-
-    //        var teeTimesViewModel = teeTimes.Select(x => new TeeTimeViewModel
-    //        {
-    //            ID = x.Id,
-    //            StartDate = x.StartDate,
-    //            EndDate = x.EndDate,
-    //            Status = x.Status,
-    //            GolfCourseName = x.GolfCourse.CourseName,
-    //            ReservationCount = x.Reservations.Count
-    //        }).ToList();
-
-    //        return teeTimesViewModel;
-    //    }
-    }
+}
 

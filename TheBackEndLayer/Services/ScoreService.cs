@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using BAISTGOLF.InViewModels;
 using System.Linq;
+using System.Data.Entity;
 using System.Data;
 using System.Text;
 using System.Threading.Tasks;
@@ -47,8 +48,6 @@ namespace TheBackEndLayer.Services
             var createInputModel = new CreateInputModel();
 
             var holes = _holeRepository.GetAll().ToList();
-
-
             var handicap = _handicapRepository.GetAll().ToList();
 
             var member = _memberRepository.FindBy(x => x.EmailAddress == userIdentity).SingleOrDefault();
@@ -57,7 +56,8 @@ namespace TheBackEndLayer.Services
 
             createInputModel.Holes = holes.Select
              (x => (new HoleViewModel { ID = x.ID, Name = x.Name })).ToList();
-
+            createInputModel.HoleEntry = holes.Select
+          (x => new HoleEntryViewModels { HoleID = x.ID, HoleName = x.Name, Score = 0 }).ToList();
 
             createInputModel.Handicaps = handicap.Select
              (x => (new HandicapViewModel { ID = x.Id, Name = x.Name })).ToList();
@@ -99,8 +99,9 @@ namespace TheBackEndLayer.Services
             var Golfcourse = _golfCourseRepository.FindBy(x => x.CourseName.Contains(
                 "BAIST")).FirstOrDefault();
 
-            createInputModel.Holes = holes.Select
-             (x => (new HoleViewModel { ID = x.ID, Name = x.Name })).ToList();
+            createInputModel.HoleEntries = holes.Select
+             (x => (new HoleEntryViewModel { HoleID = x.ID, HoleName = x.Name, Score = 0 })).ToList();
+          
 
             createInputModel.Handicaps = handicaps.Select
              (x => (new HandicapViewModel { ID = x.Id, Name = x.Name })).ToList();
@@ -118,8 +119,13 @@ namespace TheBackEndLayer.Services
 
             var golfCourse = reservation.TeeTime.GolfCourse;
 
-            var calculatedScore = model.Score - golfCourse.Rating;
+            var calculatedScore = model.Score - (golfCourse.Rating / golfCourse.Slope * 113);
+            
 
+            
+            
+            
+       
             var playerScoreModel = new PlayerScores
             {
                 ReservationID = model.ReservationID,
@@ -128,7 +134,7 @@ namespace TheBackEndLayer.Services
                 HoleId = model.HoleID,
                 HandicapId = model.HandicapID,
                 DateCreated = DateTime.UtcNow,
-                DatePlayed = model.DatePlayed.Value,
+                DatePlayed = model.DatePlayed,
             };
 
             _playerScoreRepository.Add(playerScoreModel);
@@ -146,11 +152,12 @@ namespace TheBackEndLayer.Services
             {
                 ReservationID = model.ReservationID,
                 MemberID = member.ID,
+                
                 Score = model.Score,
                 HoleId = model.HoleID,
                 HandicapId = model.HandicapID,
                 DateCreated = DateTime.UtcNow,
-                DatePlayed = model.DatePlayed.Value,
+                DatePlayed = model.DatePlayed,
             };
 
             _playerScoreRepository.Add(playerScoreModel);
@@ -222,15 +229,15 @@ namespace TheBackEndLayer.Services
                         }
                     }
 
-                    //Year Scores
-                    var yearScore = allMemberScores.Where(x => x.DatePlayed.Year
-                    == DateTime.Now.Year).ToList();
+                    ////Year Scores
+                    //var yearScore = allMemberScores.Where(x => x.DatePlayed.Year
+                    //== DateTime.Now.Year).ToList();
 
-                    if (yearScore.Count > 0)
-                    {
-                        weeklyScoreReport.Years.Add(DateTime.Now.Year.ToString());
-                        weeklyScoreReport.YearAverageScores.Add(yearScore.Select(x => x.Score).Sum() / yearScore.Count);
-                    }
+                    //if (yearScore.Count > 0)
+                    //{
+                    //    weeklyScoreReport.Years.Add(DateTime.Now.Year.ToString());
+                    //    weeklyScoreReport.YearAverageScores.Add(yearScore.Select(x => x.Score).Sum() / yearScore.Count);
+                    //}
 
                 }
 

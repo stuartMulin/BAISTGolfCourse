@@ -11,7 +11,7 @@ namespace BAISTGOLF.Controllers
     public class MembersController : Controller
 
     {
-        //private MembersService _Mservice = new MembersService();
+        //private MemberService _Mservice = new MemberService();
         private readonly IMemberService _memberService;
         public MembersController(IMemberService memberService)
         {

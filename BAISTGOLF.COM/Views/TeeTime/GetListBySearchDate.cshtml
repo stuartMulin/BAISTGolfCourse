@@ -1,5 +1,6 @@
 ﻿@model List<TheBackEndLayer.ViewModels.Reservation.TeeTimeViewModel>
 
+
 @if (Model.Count == 0)
 {
     <span>No Tee Time Available For The Selected Date</span>
@@ -19,7 +20,7 @@ else
                     Status
                 </th>
                 <th>
-                    Golf Course
+                    GolfCourseName
                 </th>
                 <th>
                     Number Of Reservations
@@ -46,7 +47,9 @@ else
                     @Html.DisplayFor(modelItem => teeTime.ReservationCount)
                 </td>
                 <td>
-                    <button class="btn btn-success" onclick="selectTeeTime(@teeTime.ID, '@teeTime.StartDate.ToShortDateString()', '@teeTime.StartDate.ToShortTimeString()', '@teeTime.EndDate.ToShortDateString()', '@teeTime.EndDate.ToShortTimeString()', @teeTime.ReservationCount)">Select</button>
+                    <button class="btn btn-success" onclick="selectTeeTime(@teeTime.ID, '@teeTime.StartDate.ToShortDateString()',
+               '@teeTime.StartDate.ToShortTimeString()', '@teeTime.EndDate.ToShortDateString()', 
+                            '@teeTime.EndDate.ToShortTimeString()', @teeTime.ReservationCount)">Select</button>
                 </td>
             </tr>
             }

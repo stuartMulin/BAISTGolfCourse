@@ -150,6 +150,7 @@
     <Compile Include="DbModels\Reservations.cs" />
     <Compile Include="DbModels\PlayerScores.cs" />
     <Compile Include="DbModels\TeeTime.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Infrastructure\AutoMapperAdapter.cs" />
     <Compile Include="Helpers\Encorder.cs" />
     <Compile Include="Enums\Enumerators.cs" />
@@ -177,6 +178,14 @@
     <Compile Include="Migrations\201902220323244_InitialMigration.cs" />
     <Compile Include="Migrations\201902220323244_InitialMigration.Designer.cs">
       <DependentUpon>201902220323244_InitialMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903050420453_AddMembershipStatus.cs" />
+    <Compile Include="Migrations\201903050420453_AddMembershipStatus.Designer.cs">
+      <DependentUpon>201903050420453_AddMembershipStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904030149531_InitialMigration1.cs" />
+    <Compile Include="Migrations\201904030149531_InitialMigration1.Designer.cs">
+      <DependentUpon>201904030149531_InitialMigration1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -233,6 +242,7 @@
     <Compile Include="ViewModels\Reservations\FindTeeTimeViewModel.cs" />
     <Compile Include="ViewModels\Reservations\MemberTeeTimeViewModel.cs" />
     <Compile Include="ViewModels\Reservations\ReservationCreateModel.cs" />
+    <Compile Include="ViewModels\Reservations\ReservationViewModel.cs" />
     <Compile Include="ViewModels\Reservations\ReserveViewModels.cs" />
     <Compile Include="ViewModels\Reservations\TeeTimeViewModel.cs" />
     <Compile Include="ViewModels\Reservations\TeeTimeWithMembersViewModel.cs" />
@@ -247,6 +257,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram2.cd" />
     <None Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="fonts\glyphicons-halflings-regular.ttf" />
     <None Include="fonts\glyphicons-halflings-regular.woff" />
@@ -301,6 +312,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201902220323244_InitialMigration.resx">
       <DependentUpon>201902220323244_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903050420453_AddMembershipStatus.resx">
+      <DependentUpon>201903050420453_AddMembershipStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904030149531_InitialMigration1.resx">
+      <DependentUpon>201904030149531_InitialMigration1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

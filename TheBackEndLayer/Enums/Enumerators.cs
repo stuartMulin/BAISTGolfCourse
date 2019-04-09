@@ -56,4 +56,10 @@ namespace TheBackEndLayer.Enums
         GolfDayClerk = 3,
         BoardOfDirector = 4
     }
+
+    public enum MembershipStatus
+    {
+        Gold = 1,
+        Regular = 2
+    }
 }

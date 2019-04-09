@@ -1,0 +1,121 @@
+﻿@model TheBackEndLayer.InViewModels.CreateInputModel
+@{
+    var ajaxOptions = new AjaxOptions
+    {
+        HttpMethod = "Post",
+        OnSuccess = "showToastrSuccess",
+        OnBegin = "NProgress.start();",
+        OnComplete = "NProgress.done();",
+        OnFailure = "showToastrError"
+    };
+}
+<div class="col-md-10 m-t-25 no-padding">
+    <div class="panel panel-primary">
+        <div class="panel-heading">Enter Your Score</div>
+        <div class="panel-body">
+            @using (Ajax.BeginForm("EnterPlayerScore", null, ajaxOptions, new { @class = "form-horizontal" }))
+            {
+            <div class=" col-xs-12">
+                <table>
+                    <tr>
+                        <th> Member Name </th>
+                        <th> Date Played</th>
+                        <th> Handi Cap</th>
+                        <th>Course Rating</th>
+                        <th>Slope</th>
+                    </tr>
+                    <div>
+                        <strong</strong>
+                    </div>
+                    @foreach (var user in Model)
+                    {
+                    <tr>
+                        <td>@user</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    }
+                            <tr>
+
+                                <td>@Score: <input type="number" /></td>
+                            </tr>
+                </table>
+            </div>
+
+
+
+                            <table id="reservations"></table>
+                            <table>
+                                <tr>
+                                    <td>Score: <input type="number" /></td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Hole 1: <input type="number"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hole 2: <input type="number"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hole 3: <input type="number"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hole 4: <input type="number"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hole 5: <input type="number"></td>
+                                    </tr>
+                                    <tr><td>Hole 10: <input type="number"></td></tr>
+                                <td>Hole 1: <input type="number"></td>
+                                <td>Hole 10: <input type="number"></td>
+                                <td>Hole 1: <input type="number"></td>
+                                <td>Hole 10: <input type="number"></td>
+                                <td>Hole 1: <input type="number"></td>
+
+                                </tbody>
+                            </table>
+                            <table class="table">
+                                <tr>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model)
+                                    </th>
+                                    <th></th>
+                                </tr>
+
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.ID)
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.MemberFullName)
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+
+                                            @Html.DisplayFor(modelItem => item.TeeTimeStartDate)
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.TeeTimeEndDate)
+                                        </td>
+
+                                    <tr>
+                                        <td>
+                                            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                                            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                                            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                                        </td>
+                                    </tr>
+                                    }
+
+                                </table>

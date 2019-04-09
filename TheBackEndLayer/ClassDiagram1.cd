@@ -1,0 +1,818 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TheBackEndLayer.UnityConfig" Collapsed="true">
+    <Position X="28" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\UnityConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.SeedDbEntities" Collapsed="true">
+    <Position X="31.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>SeedDbEntities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.DbModels.Applicants" Collapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GiAAEEAEAAAAgACIIAAEAAAAAAARAAACAAEEIwAAAAg=</HashCode>
+      <FileName>DbModels\Applicants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.DbModels.BAISTGolfCourseDbContext" Collapsed="true">
+    <Position X="35" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAABAAAAgAEAAAAAAAGAQAAAAAAAAMAAAAAAA=</HashCode>
+      <FileName>DbModels\BAISTGolfCourseDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.DbModels.Employees" Collapsed="true">
+    <Position X="26.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECACAEEAAAAAAACIEAAEAAAAAAAQAAACAQEEIgAAAAg=</HashCode>
+      <FileName>DbModels\Employees.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.DbModels.GolfCourse" Collapsed="true">
+    <Position X="26.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAgAAIAAAABAAAAAIAAAECAQAAAAQAAEA=</HashCode>
+      <FileName>DbModels\GolfCourse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.DbModels.HandiCap" Collapsed="true">
+    <Position X="33.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>DbModels\HandiCap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.DbModels.Hole" Collapsed="true">
+    <Position X="24.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>DbModels\Hole.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.DbModels.Members" Collapsed="true">
+    <Position X="21" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAAAEAAAAAAgAiIMAAUCQAAAAAQAAQiAAEEIgAAAAg=</HashCode>
+      <FileName>DbModels\Members.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.DbModels.PlayerScores" Collapsed="true">
+    <Position X="35" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAAEAAAAAAIgAGAAAAAAAAAQIAAEABAAEAAABAEI=</HashCode>
+      <FileName>DbModels\PlayerScores.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.DbModels.Reservations" Collapsed="true">
+    <Position X="28" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAEAAAAgAAAAAAAAAAAAAAIAAACAQAMAAABAIA=</HashCode>
+      <FileName>DbModels\Reservations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.DbModels.TeeTime" Collapsed="true">
+    <Position X="33.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAEAAAAAAAAEEAAAAAgAAAgAAAAAAAEAEAAAAA=</HashCode>
+      <FileName>DbModels\TeeTime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.Helpers.Encorder" Collapsed="true">
+    <Position X="35" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAgACAAAAAAABAAAAAACAQACAQAAAAAAIQAAAQAAA=</HashCode>
+      <FileName>Helpers\Encorder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.Helpers.PasswordEncryptor" Collapsed="true">
+    <Position X="31.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Helpers\PasswordEncryptor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.Helpers.ProvincesModel" Collapsed="true">
+    <Position X="22.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Helpers\ProvincesModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.Infrastructure.AutoMapperAdapter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\AutoMapperAdapter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TheBackEndLayer.Infrastructure.Maps.ApplicantsMap" Collapsed="true">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Maps\ApplicantsMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.Infrastructure.Maps.CreateInPutModelApplicant" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Maps\CreateInPutModelApplicant.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TheBackEndLayer.Infrastructure.Maps.EmployeesMap" Collapsed="true">
+    <Position X="29.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Maps\EmployeesMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.Infrastructure.Maps.EmpViewModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Maps\EmpViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TheBackEndLayer.Infrastructure.Maps.HoleMap" Collapsed="true">
+    <Position X="26.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Maps\HoleMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.Infrastructure.Maps.PlayerScoreMap" Collapsed="true">
+    <Position X="33.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Maps\HoleMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.Infrastructure.Maps.HandicapMap" Collapsed="true">
+    <Position X="35" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Maps\HoleMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.Infrastructure.Maps.GolfCourseMap" Collapsed="true">
+    <Position X="28" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Maps\HoleMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.Infrastructure.Maps.LoginInPutViewModel" Collapsed="true">
+    <Position X="35" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAAAAAAAAAAAAAAAAACAAAAAAAgAAA=</HashCode>
+      <FileName>Infrastructure\Maps\LoginInPutViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.Infrastructure.Maps.MembersMap" Collapsed="true">
+    <Position X="24.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Maps\MembersMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.Infrastructure.Maps.MembersViewModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Maps\MembersViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TheBackEndLayer.Infrastructure.Maps.ReservationMap" Collapsed="true">
+    <Position X="26.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Maps\ReservationMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.Infrastructure.Maps.ReservationsViewModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Maps\ReservationsViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TheBackEndLayer.Infrastructure.Maps.TeeTimeMap" Collapsed="true">
+    <Position X="35" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Maps\TeeTimeMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.InViewModels.HoleViewModel" Collapsed="true">
+    <Position X="29.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InViewModels\CreateInputModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.InViewModels.ReservationScoreViewModel" Collapsed="true">
+    <Position X="29.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>InViewModels\CreateInputModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.InViewModels.HandicapViewModel" Collapsed="true">
+    <Position X="21" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InViewModels\CreateInputModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.InViewModels.GolfCourseViewModel" Collapsed="true">
+    <Position X="31.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAIAAAABAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InViewModels\CreateInputModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.InViewModels.CreateInputModelWithMember" Collapsed="true">
+    <Position X="31.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAIAIgIEAAAAAAAAAAAAAAABAAAAAABAAI=</HashCode>
+      <FileName>InViewModels\CreateInputModelWithMember.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.InViewModels.GetInputModelForAdmin" Collapsed="true">
+    <Position X="24.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InViewModels\GetInputModelForAdmin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.InViewModels.ScoreCardReport" Collapsed="true">
+    <Position X="28" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InViewModels\ScoreCardReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.InViewModels.UserScoreViewModel" Collapsed="true">
+    <Position X="29.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABiAAAAAAAAAAAAAAAABAAAAAAAAAAI=</HashCode>
+      <FileName>InViewModels\UserScoreViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BAISTGOLF.InViewModels.CreatePlayerScore" Collapsed="true">
+    <Position X="35" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAIAIgIEEAAAAAAAAAAAAAABAAAAAABAAI=</HashCode>
+      <FileName>InViewModels\CreatePlayerScore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.Migrations.InitialMigration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201902220323244_InitialMigration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TheBackEndLayer.Migrations.Configuration" Collapsed="true">
+    <Position X="21" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Migrations\Configuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.Repositories.ApplicantsRepository">
+    <Position X="14" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Repositories\ApplicantsRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TheBackEndLayer.Repositories.EmpRepository">
+    <Position X="16.25" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\EmpRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TheBackEndLayer.Repositories.GenericRepository&lt;C&gt;">
+    <Position X="9.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAYAAAQAACAAAAgAAAAAAAEAAAEIAAAAAgAAAAAAAgA=</HashCode>
+      <FileName>Repositories\GenericRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TheBackEndLayer.Repositories.GolfCourseRepository">
+    <Position X="18.5" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\GolfCourseRepositorycs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TheBackEndLayer.Repositories.HandiCapRepository">
+    <Position X="0.5" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\HandiCapRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TheBackEndLayer.Repositories.HoleRepository">
+    <Position X="2.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\HoleRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TheBackEndLayer.Repositories.MemberRepository">
+    <Position X="5" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\MemberRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TheBackEndLayer.Repositories.PlayerScoreRepository">
+    <Position X="7.25" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Repositories\PlayerScoreRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TheBackEndLayer.Repositories.ReserveRepository">
+    <Position X="9.5" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAQAABAAIAAAAAAAAAAAAAAAAAEIAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\ReserveRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TheBackEndLayer.Repositories.TeeTimeRepository">
+    <Position X="11.75" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Repositories\TeeTimeRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TheBackEndLayer.Services.AppService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAIAAAAAAgAAgAgAAgAIgQAAAAAkAAGAADABAAAAA=</HashCode>
+      <FileName>Services\AppService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TheBackEndLayer.Services.EmailService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAFABAAAA=</HashCode>
+      <FileName>Services\EmailService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TheBackEndLayer.Services.EmployeeService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAgAAgAAAAAAAAAgAACCABCAABAAA=</HashCode>
+      <FileName>Services\EmployeeService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TheBackEndLayer.Services.MemberService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAgBAAAAAAAABAAAAARABgAACAABAQAAEIA=</HashCode>
+      <FileName>Services\MemberService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TheBackEndLayer.Services.ReservationService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEAAAAAAEBAQAAAAAAAAEBAAAAAAAgFAACABAABAAoA=</HashCode>
+      <FileName>Services\ReservationService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TheBackEndLayer.Services.ScoreService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAEABAAQAAAAABAAACBAAACAAFEAJAARAAIA=</HashCode>
+      <FileName>Services\ScoreService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TheBackEndLayer.Services.TeeTimesService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAgBAACABAAAAAIA=</HashCode>
+      <FileName>Services\TeeTimesService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TheBackEndLayer.ViewModels.Applicants.ApplicantsViewModel" Collapsed="true">
+    <Position X="24.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAAAEAEAAAAgACIMAAEAAAAAAAQAAACAAEEIgAAAAg=</HashCode>
+      <FileName>ViewModels\Applicants\ApplicantsViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.ViewModels.Applicants.AppReportViewModel" Collapsed="true">
+    <Position X="26.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAIAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>ViewModels\Applicants\AppReportViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.ViewModels.Applicants.AppRequestViewModel" Collapsed="true">
+    <Position X="28" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GiAAAEAEACAAgACIIAAUAAAAAAAQAAACAAEEIgAAAAg=</HashCode>
+      <FileName>ViewModels\Applicants\AppRequestViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.ViewModels.Employee.EmployeeViewModel" Collapsed="true">
+    <Position X="31.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACAEAAAAAAAACIEAAAAAAAAAAQAAACAQAEIgAAAAg=</HashCode>
+      <FileName>ViewModels\Employee\EmployeeViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.ViewModels.HandlesInPut.CreateInputModel" Collapsed="true">
+    <Position X="22.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAEAAAAIAIgIEAAAQAAAAAAAAAAADAAAAgAAAAA=</HashCode>
+      <FileName>ViewModels\ForInputModels\AllInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.ViewModels.ForInputModels.Applicants.CreateInPutModel" Collapsed="true">
+    <Position X="28" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiCAAEAAAAAAAACIIAAEQAAAAAAQAAACAAEAIgAAIAg=</HashCode>
+      <FileName>ViewModels\ForInputModels\Applicants\CreateInPutModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.ViewModels.HandlesInPutModels.CreateReserveInputModel" Collapsed="true">
+    <Position X="22.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>ViewModels\ForInputModels\CreateReservInputModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.ViewModels.HandlesInPutModels.ReservationsModel" Collapsed="true">
+    <Position X="35" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\ForInputModels\CreateReservInputModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.ViewModels.HandlesInPutModels.HandicapViewModel" Collapsed="true">
+    <Position X="22.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\Handicap\HandicapViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.ViewModels.ForInputModels.FindTeeTimeModel" Collapsed="true">
+    <Position X="21" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgIAAgAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>ViewModels\ForInputModels\FindTeeTimeModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.ViewModels.GolfCourse.GolfCourseViewModel" Collapsed="true">
+    <Position X="29.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAAAAAAAAAAAIAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\GolfCourse\GolfCourseViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.ViewModels.HolebyHole.HoleViewModel" Collapsed="true">
+    <Position X="28" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\HolebyHole\HoleViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.ViewModels.Login.LoginInputModel" Collapsed="true">
+    <Position X="33.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAAAAAAAgAAA=</HashCode>
+      <FileName>ViewModels\Login\LoginInputModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.ViewModels.Members.MembersViewModel" Collapsed="true">
+    <Position X="28" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAAAEAAAAAAgACIIAAECCAAAAAQAAAiAAEEIgABAAg=</HashCode>
+      <FileName>ViewModels\Members\MembersViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.ViewModels.Members.ReservationStats" Collapsed="true">
+    <Position X="21" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAAUAAAABAAAAAA=</HashCode>
+      <FileName>ViewModels\Members\MembersViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.ViewModels.Members.AverageScore" Collapsed="true">
+    <Position X="33.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAIAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>ViewModels\Members\MembersViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.ViewModels.Reservation.CreateReservationModel" Collapsed="true">
+    <Position X="21" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\Reservations\CreateReservationModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.ViewModels.Reservation.MemberTeeTimeViewModel" Collapsed="true">
+    <Position X="29.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAgAAAAAAAAAAgAAAAAAAAAIAAAEAAAAA=</HashCode>
+      <FileName>ViewModels\Reservations\MemberTeeTimeViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.ViewModels.Reservation.ReservViewModels" Collapsed="true">
+    <Position X="24.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAAAACECAAAgAAAAAAAAAAAAAAgAAAAAAAMAAAAAAA=</HashCode>
+      <FileName>ViewModels\Reservations\ReserveViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.ViewModels.Reservation.TeeTimeViewModel" Collapsed="true">
+    <Position X="22.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAgAAAAAAAAAAgAAAAAQAAAAAAAEAAAAA=</HashCode>
+      <FileName>ViewModels\Reservations\TeeTimeViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.ViewModels.Reservations.FindTeeTimeViewModel" Collapsed="true">
+    <Position X="22.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAgIAAgAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>ViewModels\Reservations\FindTeeTimeViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.ViewModels.Reservations.ReservationCreateModel" Collapsed="true">
+    <Position X="24.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>ViewModels\Reservations\ReservationCreateModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.ViewModels.Reservations.TeeTimeWithMembersViewModel" Collapsed="true">
+    <Position X="24.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAgAAAAAAAIAAgAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>ViewModels\Reservations\TeeTimeWithMembersViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.ViewModels.ReservationScores.ReservationScoreViewModel" Collapsed="true">
+    <Position X="31.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\ReservationScores\ReservationScoreViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.ViewModels.Scores.CreateInPutModel" Collapsed="true">
+    <Position X="26.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\Scores\CreateInPutModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.ViewModels.Scores.CreatePlayerModel" Collapsed="true">
+    <Position X="33.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\Scores\CreatePlayerScorecs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.ViewModels.Scores.PlayerScoreViewModel" Collapsed="true">
+    <Position X="21" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAAAAAAABAAiACAAAAQAAIAAAAAEBAAAAAAAAAAI=</HashCode>
+      <FileName>ViewModels\Scores\PlayerScoreViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.ViewModels.Scores.ScoreCard" Collapsed="true">
+    <Position X="26.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAQAAAAgAQCAAgAIAAAAAAAAAAAACA=</HashCode>
+      <FileName>ViewModels\Scores\ScoreCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBackEndLayer.ViewModels.TeeTimeWithMembersViewModel" Collapsed="true">
+    <Position X="26.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAgAAAAAAAAAAgAIAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>ViewModels\TeeTimeWithMembersViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="TheBackEndLayer.Helpers.IAutoMapper">
+    <Position X="22.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\IAutoMapper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TheBackEndLayer.Helpers.IAutoMapperTypeConfigurator">
+    <Position X="24.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\IAutoMapperTypeConfigurator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TheBackEndLayer.Repositories.IApplicantsRepository">
+    <Position X="2.75" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Repositories\IApplicantsRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TheBackEndLayer.Repositories.IEmpRepository">
+    <Position X="5" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\IEmpRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TheBackEndLayer.Repositories.IGolfCourseRepository">
+    <Position X="7.25" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\IGCourseRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TheBackEndLayer.Repositories.IgRepository&lt;C&gt;">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAYAAAQAAAAAAAgAAAAAAAAAAAEAAAAAAgAAAAAAAgA=</HashCode>
+      <FileName>Repositories\IGenericRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TheBackEndLayer.Repositories.IHandiCapRepository">
+    <Position X="9.5" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\IHandiCapRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TheBackEndLayer.Repositories.IHoleRepository">
+    <Position X="11.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\IHoleRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TheBackEndLayer.Repositories.IMemberRepository">
+    <Position X="14" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\IMemberRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TheBackEndLayer.Repositories.IPlayerScoreRepository">
+    <Position X="16.25" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Repositories\IPlayerScoreRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TheBackEndLayer.Repositories.IReserveRepository">
+    <Position X="18.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAQAABAAIAAAAAAAAAAAAAAAAAEIAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\IReserveRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TheBackEndLayer.Repositories.ITeeTimeRepository">
+    <Position X="0.5" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Repositories\ITeeTimeRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TheBackEndLayer.Services.IAppService">
+    <Position X="21" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAIAAAAAAgAAAAgAAgAAgAAAAAAEAAGAACABAAAAA=</HashCode>
+      <FileName>Services\IAppService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TheBackEndLayer.Services.IEmailService">
+    <Position X="26.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFABAAAA=</HashCode>
+      <FileName>Services\IEmailService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TheBackEndLayer.Services.IEmployeeService">
+    <Position X="28" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAgAAAAAAAAAAAACAAACAABAAA=</HashCode>
+      <FileName>Services\IEmployeeService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TheBackEndLayer.Services.IMemberService">
+    <Position X="29.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAgAAAAAAAAAAAAAAARAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Services\IMemberService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TheBackEndLayer.Services.IReservationService">
+    <Position X="31.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAABAQAAAAAAAAEBAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\IReservationService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TheBackEndLayer.Services.IScoreService">
+    <Position X="33.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAQAAAAAAAAAABAAACAAAEAIAAQAAAA=</HashCode>
+      <FileName>Services\IScoreService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TheBackEndLayer.Services.ITeeTimesService">
+    <Position X="35" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\ITeeTimesService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="TheBackEndLayer.Enums.ApplicantStatus">
+    <Position X="21" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAQAAAAAAAAAAACAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Enums\Enumerators.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TheBackEndLayer.Enums.RejectionReason">
+    <Position X="24.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Enums\Enumerators.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TheBackEndLayer.Enums.Gender">
+    <Position X="22.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Enums\Enumerators.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TheBackEndLayer.Enums.TeeTimeStatus">
+    <Position X="31.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAIAAAAAAAgAAAACAAAA=</HashCode>
+      <FileName>Enums\Enumerators.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TheBackEndLayer.Enums.ReservationStatus">
+    <Position X="26.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAQAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\Enumerators.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TheBackEndLayer.Enums.ReservationType">
+    <Position X="28" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Enums\Enumerators.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TheBackEndLayer.Enums.Role">
+    <Position X="29.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQACAA=</HashCode>
+      <FileName>Enums\Enumerators.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MemberLayout.cshtml";
+}
+<div class="bg-white p-10 m-t-30" style="border: none; height: auto; min-height: 700px; overflow: hidden">
+
+
+    <ul class="nav nav-tabs">
+        <li role="presentation" class="active">@Ajax.ActionLink("Score Report", "Scores", "Reports", new AjaxOptions { HttpMethod = "Get", UpdateTargetId = "reportList" })</li>
+        <li role="presentation">@Ajax.ActionLink("Applicant Report", "Applicants", "Reports", new AjaxOptions { HttpMethod = "Get", UpdateTargetId = "reportList" })</li>
+    </ul>
+    <div class="m-t-25" id="reportList">
+        @Html.Action("Scores")
+    </div>
+
+</div>

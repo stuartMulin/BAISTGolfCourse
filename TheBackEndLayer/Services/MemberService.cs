@@ -43,19 +43,18 @@ namespace TheBackEndLayer.Services
         }
         private MembersViewModel GetuserByEmailSearch(string EmailAddress)
         {
-            using (var db = new BAISTGolfCourseDbContext())
-            {
-                var member = db.Members.SingleOrDefault(x => x.EmailAddress == EmailAddress);
 
-                if (member != null)
-                {
-                    return PopulateViewModel(member);
-                }
-                else
-                {
-                    return new MembersViewModel();
-                }
+            var member = _memberRepository.FindBy(x => x.EmailAddress == EmailAddress).SingleOrDefault();
+
+            if (member != null)
+            {
+                return PopulateViewModel(member);
             }
+            else
+            {
+                return new MembersViewModel();
+            }
+
         }
 
         public MembersViewModel PopulateViewModel(Members member)
@@ -108,9 +107,10 @@ namespace TheBackEndLayer.Services
                 return null;
         }
 
-        public object GetMemberByMembershipNumber(string memberID)
+        public Members GetMemberByMembershipNumber(string membershipNumber)
         {
-            throw new NotImplementedException();
+            var member = _memberRepository.FindBy(x => x.MembershipID == membershipNumber).SingleOrDefault();
+            return member;
         }
         public MembersViewModel GetMemberByMembershipID(string membershipID)
         {
@@ -121,8 +121,8 @@ namespace TheBackEndLayer.Services
                 return null;
             }
             var membersViewModel = _autoMapper.Map<MembersViewModel>(members);
-            //membersViewModel.AverageScore = ScoreReport(members);
-            //membersViewModel.ReservationStats = ReservationShortReport(members);
+            membersViewModel.AverageScore = ScoreReport(members);
+            membersViewModel.ReservationStats = ReservationShortReport(members);
 
             return membersViewModel;
         }

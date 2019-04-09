@@ -10,5 +10,7 @@ namespace TheBackEndLayer.Services
     public interface ITeeTimesService
     {
         TeeTimeWithMembersViewModel GetWithMembers(int id);
+       List<ViewModels.Reservation.TeeTimeViewModel> GetListBySearchDate(DateTime SearchDate);
+      
     }
 }

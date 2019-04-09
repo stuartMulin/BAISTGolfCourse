@@ -10,14 +10,15 @@ namespace TheBackEndLayer.InViewModels
 
         public CreateInputModelWithMember()
         {
-            Holes = new List<HoleViewModel>();
+            HoleEntries = new List<HoleEntryViewModel>();
             Handicaps = new List<HandicapViewModel>();
+      
             Reservations = new List<ReservationScoreViewModel>();
 
         }
-        [Required(ErrorMessage = "Required")]
+        //[Required(ErrorMessage = "Required")]
         [Display(Name = "Enter Member ID: ")]
-        [Remote("CheckMemberIDExists", "Account", HttpMethod = "POST", ErrorMessage = "Member ID does not exist")]
+        [Remote("CheckMemberNumberExists", "Account", HttpMethod = "POST", ErrorMessage = "Member ID does not exist")]
         public string MemberID { get; set; }
 
         [Required(ErrorMessage = "Required")]
@@ -32,6 +33,8 @@ namespace TheBackEndLayer.InViewModels
         [Required(ErrorMessage = "Required")]
         [Display(Name = "Select Hole: ")]
         public int HoleID { get; set; }
+        public float Rating { get; set; }
+        public float Slope { get; set; }
 
         [Required(ErrorMessage = "Required")]
         [Display(Name = "Select Handicap: ")]
@@ -39,9 +42,16 @@ namespace TheBackEndLayer.InViewModels
 
         [Required(ErrorMessage = "Required")]
         [Display(Name = "Date Played: ")]
-        public DateTime? DatePlayed { get; set; }
-        public List<HoleViewModel> Holes { get; set; }
+        public DateTime DatePlayed { get; set; }
+        public List<HoleEntryViewModel> HoleEntries { get; set; }
         public List<HandicapViewModel> Handicaps { get; set; }
         public List<ReservationScoreViewModel> Reservations { get; set; }
+    }
+
+    public class HoleEntryViewModel
+    {
+        public int HoleID { get; set; }
+        public string HoleName { get; set; }
+        public int Score { get; set; }
     }
 }

@@ -1,0 +1,61 @@
+﻿@model TheBackEndLayer.ViewModels.Reservation.ReservViewModels
+@{
+    ViewBag.Title = "Tee Time - " + Model.TeeTimeStartDate.ToString("f");
+    Layout = "~/Views/Shared/_MemberLayout.cshtml";
+}
+<ol class="breadcrumb">
+    <li><a href="/">Home</a></li>
+    <li><a href="/reservation">Reservation Manager</a></li>
+    <li><a href="/reservation/list">Upcoming Reservation</a></li>
+    <li class="active">@Model.TeeTimeStartDate.ToString("f")</li>
+</ol>
+
+<div class="col-xs-12">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            Reservation Details
+        </div>
+        <div class="panel-body">
+            <h3>
+                <i class="fa fa-calendar"></i>
+                Date:
+                @(Model.TeeTimeStartDate.ToShortDateString())<small>
+
+                    from @(Model.TeeTimeStartDate.ToShortTimeString())
+
+                    to
+
+                    @(Model.TeeTimeEndDate.ToShortTimeString())
+                </small>
+            </h3>
+            <h3>
+                <i class="fa fa-tasks"></i>
+                Status: @Model.Status.ToString()
+            </h3>
+            <hr />
+            <h4>Members Reserved</h4>
+            <hr />
+            <div class="row">
+                @foreach (var member in Model.MembersOnReservation)
+                {
+
+                    <div class="col-sm-4 col-xs-6 col-md-3">
+                        <div class="thumbnail">
+                            <img src="~/Content/img/MainBg.jpg" alt="golf">
+                            <div class="caption">
+                                <h3>@member.FirstName @member.LastName</h3>
+                                <p>
+                                    @member.Gender.ToString()
+                                    <br />
+                                    @member.Phone
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                }
+            </div>
+
+        </div>
+    </div>
+</div>

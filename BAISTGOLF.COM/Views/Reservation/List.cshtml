@@ -1,13 +1,33 @@
 ﻿@model List<TheBackEndLayer.ViewModels.Reservation.ReservViewModels>
-    @{ 
- ViewBag.Title = "Your Reservations";
-    Layout = "~/Views/Shared/_MemberLayout.cshtml";
-}
-<ol class="breadcrumb">
-    <li><a href="/">Home</a></li>
-    <li><a href="/reservations">Reservation Manager</a></li>
-    <li class="active">Upcoming Reservations</li>
-</ol>
-<h3>Your Upcoming Reservations</h3>
-<hr />
-<div id="calendar"></div>
+
+<div class="col-xs-12 col-sm-12 col-md-10" id="actualList">
+    <table class="table table-bordered table-responsive table-hover">
+        <thead>
+            <tr>
+                <th>Full Name</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Id</th>
+                <th>Golf Course</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.MemberFullName</td>
+                    <td>@user.TeeTimeStartDate</td>
+                    <td>@user.TeeTimeEndDate</td>
+                    <td>@user.ID</td>
+                    <td>@user.GolfCourse</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-2">
+    <div class="list-group">
+        @Ajax.ActionLink("Filter By Male", "ScoresByMale", "Reports", null, new AjaxOptions { HttpMethod = "Get", UpdateTargetId = "reportList" }, new { @class = "list-group-item" })
+       
+    </div>
+</div>

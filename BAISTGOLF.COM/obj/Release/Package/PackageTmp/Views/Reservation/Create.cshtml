@@ -1,0 +1,20 @@
+﻿<script type="text/javascript" src="~/Scripts/reservationCreate.js"></script>
+@{
+    ViewBag.Title = "Create ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <span id="memberID" class="f-s-0">@ViewBag.MemberID</span>
+    <h2>Create A Reservation</h2>
+
+    <div id="wizard">
+        <h1>Find Tee Time</h1>
+        <div>@Html.Partial("FindTeeTime")</div>
+
+        <h1>Assign Members To Tee Time</h1>
+        <div><div id="teeTimeDetail"></div></div>
+    </div>
+</div>
+
+

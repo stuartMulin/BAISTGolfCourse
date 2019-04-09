@@ -1,42 +1,14 @@
-﻿@model List< TheBackEndLayer.ViewModels.Reservation.TeeTimeViewModel>
-<div class="row">
-    <h4>Select Tee Time To Reserve A Spot...</h4>
-    <table class="table table-bordered table-responsive bg-white table-hover m-t-25 standard-border" id="pageTable">
-        <thead>
-            <tr>
-                <th>Start Date</th>
-                <th>Start Time</th>
-                <th>End Date</th>
-                <th>End Time</th>
-                <th>Number of Reservations</th>
-                <th>Status</th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var teeTime in Model)
-            {
-                <tr>
-                    <td>@teeTime.StartDate.ToShortDateString()</td>
-                    <td>@teeTime.StartDate.ToShortTimeString()</td>
-                    <td>@teeTime.EndDate.ToShortDateString()</td>
-                    <td>@teeTime.EndDate.ToShortTimeString()</td>
-                    <td>@teeTime.ReservationCount</td>
-                    <td>@teeTime.Status.ToString()</td>
-                    <td>
-                        <label>
-                            @Html.RadioButton("reserve", "isReserved", false, new
-                       {
-                           onclick = "bookReservation(" + teeTime.ID + ",'"
-                              + teeTime.StartDate.ToShortDateString() + "', '" + teeTime.StartDate.ToShortTimeString() + "','" +
-                              teeTime.EndDate.ToShortDateString() + "','" + teeTime.EndDate.ToShortTimeString() + "'," +
-                              teeTime.ReservationCount + ")",
-                           id = teeTime.ID
-                       })
-                        </label>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
+﻿
+<div class="form-horizontal">
+    <div class="form-group">
+        @Html.Label("Enter A Date", new { @class = "control-label" })
+        @Html.TextBox("searchDate", null, new { @class = "form-control", id = "searchDate" })
+    </div>
+    <div class="form-group">
+        <button class="btn btn-info" onclick="searchForTeeTimes()">Search For Tee Times</button>
+    </div>
+
+    <div id="tee-times">
+
+    </div>
 </div>

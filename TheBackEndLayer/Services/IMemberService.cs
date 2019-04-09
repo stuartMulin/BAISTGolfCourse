@@ -14,6 +14,6 @@ namespace TheBackEndLayer.Services
         MembersViewModel GetMemberByMembershipID(string membershipID);
         MembersViewModel GetMemberById(int id);
         MembersViewModel PopulateViewModel(Members member);
-        object GetMemberByMembershipNumber(string memberID);
+        Members GetMemberByMembershipNumber(string memberID);
     }
 }

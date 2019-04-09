@@ -35,17 +35,25 @@ namespace BAISTGOLF.COM
                       "~/Scripts/bootstrap-datepicker.js",
                       "~/Scripts/bootstrap-timepicker.js",
                       "~/Scripts/toastr.js",
-                      "~/Scripts/nprogress.js",                     
+                      "~/Scripts/nprogress.js",
+                      "~/Scripts/underscore-min.js",
                       "~/Scripts/generalScript.js",
                       "~/Scripts/reservation.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css",
+                      "~/Content/font-awesome.css",
                       "~/Content/bootstrap-datepicker.css",
                       "~/Content/toastr.min.css",
                       "~/Content/nprogress.css",
-                      "~/Content/jquery.steps.css"));
+                      "~/Content/fullcalendar.min.css",
+                      "~/Content/jquery.steps.css",
+                      "~/Content/site.css"));
+
+            bundles.Add(new StyleBundle("~/Content/dataTableCss").Include(
+                      "~/Content/DataTables/css/dataTables.bootstrap.min.css",
+                      "~/Content/DataTables/css/buttons.bootstrap.min.css"));
+            BundleTable.EnableOptimizations = false;
         }
     }
 }
