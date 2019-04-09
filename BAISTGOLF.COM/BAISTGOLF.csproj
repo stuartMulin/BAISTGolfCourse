@@ -530,6 +530,7 @@
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\nprogress.js" />
     <Content Include="Scripts\nprogress.min.js" />
+    <Content Include="Scripts\playerScore.js" />
     <Content Include="Scripts\reservation.js" />
     <Content Include="Scripts\reservationCreate.js" />
     <Content Include="Scripts\reservationWizard.js" />

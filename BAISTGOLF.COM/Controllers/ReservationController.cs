@@ -15,11 +15,14 @@ namespace BAISTGOLF.Controllers
     {
         private readonly IMemberService _memberService;
         private readonly ITeeTimesService _teetimeService;
+        private readonly IScoreService _scoreService;
         private readonly IReservationService _reservationService;
-        public ReservationController(IReservationService reservationService, ITeeTimesService teetimeService, IMemberService memberService)
+        public ReservationController(IReservationService reservationService, ITeeTimesService teetimeService,
+            IScoreService scoreService, IMemberService memberService)
         {
             _reservationService = reservationService;
             _teetimeService = teetimeService;
+            _scoreService = scoreService;
             _memberService = memberService;
 
 
@@ -130,6 +133,14 @@ namespace BAISTGOLF.Controllers
                 GolfCourse = x.GolfCourse
             });
             return Json(reservationsCalendar, JsonRequestBehavior.AllowGet);
+        }
+
+        [HttpGet]
+        public ActionResult GetMemberReservationsForAdmin(string memberID)
+        {
+            var reservations = _scoreService.GetReservationsForMember(memberID);
+
+            return Json(reservations, JsonRequestBehavior.AllowGet);
         }
         //public ActionResult Index()
         //{

@@ -10,6 +10,9 @@
         OnFailure = "showToastrError"
     };
 }
+
+<script type="text/javascript" src="~/Scripts/playerScore.js"></script>
+
 <div class="col-md-10 m-t-25 no-padding">
     <div class="panel panel-primary">
         <div class="panel-heading">Enter Player Score</div>
@@ -21,19 +24,14 @@
                 @Html.ValidationSummary(true, "", new { @class = "text-danger" })
                 <div class="form-group">
                     @Html.LabelFor(x => x.MemberID, new { @class = "control-label" })
-                    @Html.TextBoxFor(x => x.MemberID, null, new { @class = "form-control" })
+                    @Html.TextBoxFor(x => x.MemberID, null, new { @class = "form-control", id = "memberID" })
                     @Html.ValidationMessageFor(x => x.MemberID, null, new { @class = "text-danger" })
                 </div>
                 <div class="form-group">
                     @Html.LabelFor(x => x.ReservationID, new { @class = "control-label" })
-                    @Html.DropDownListFor(x => x.ReservationID, new SelectList(Model.Reservations, "ID", "Date"), new { @class = "form-control" })
+                    @Html.DropDownListFor(x => x.ReservationID, new SelectList(Model.Reservations, "ID", "Date"), new { @class = "form-control", id = "reservationsList" })
                     @Html.ValidationMessageFor(x => x.ReservationID, null, new { @class = "text-danger" })
                 </div>
-                @*<div class="form-group">
-            @Html.LabelFor(x => x.HandicapID, new { @class = "control-label" })
-            @Html.DropDownListFor(x => x.HandicapID, new SelectList(Model.Handicaps, "ID", "Name"), new { @class = "form-control" })
-            @Html.ValidationMessageFor(x => x.HandicapID, null, new { @class = "text-danger" })
-        </div>*@
                 <div class="form-group">
                     <table class="table table-bordered table-responsive table-hover">
                         <thead>
@@ -43,12 +41,15 @@
                             </tr>
                         </thead>
                         <tbody>
-                            @foreach (var entry in Model.HoleEntries)
+                            @for (var i = 0; i < Model.HoleEntries.Count; i++)
                             {
-                                <tr>
-                                    <td>@entry.HoleName</td>
-                                    <td><input type="number" class="form-control" value="@entry.Score" /></td>
-                                </tr>
+                            <tr>
+                                <td>
+                                    @Html.TextBoxFor(x => x.HoleEntries[i].HoleName, null, new { @class = "form-control", disabled = "disabled", id = "memberID" })
+                                                                @Html.HiddenFor(x => x.HoleEntries[i].HoleName)
+                                                            </td>
+                                <td>@Html.TextBoxFor(x => x.HoleEntries[i].Score, null, new { @class = "form-control", id = "memberID" })</td>
+                            </tr>
                             }
                         </tbody>
                     </table>

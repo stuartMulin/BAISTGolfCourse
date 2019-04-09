@@ -164,7 +164,15 @@ namespace TheBackEndLayer
             database.TeeTime.AddOrUpdate(p => new { p.GolfCourseID, p.StartDate }, teeTime4);
             database.TeeTime.AddOrUpdate(p => new { p.GolfCourseID, p.StartDate }, teeTime5);
 
+            for (int i = 1; i < 19; i++)
+            {
+                var hole = new Hole
+                {
+                    Name = i.ToString()
 
+                };
+                database.Hole.AddOrUpdate(p => p.Name, hole);
+            }
             database.SaveChanges();
         }
     }
